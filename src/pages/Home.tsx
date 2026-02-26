@@ -1,4 +1,5 @@
 import About from "../sections/About";
+import Goal from "../sections/Goal";
 import Hero from "../sections/Hero";
 import Info from "../sections/Info";
 import Interval from "../sections/Interval";
@@ -10,6 +11,7 @@ export default function Home() {
             <About />
             <Info />
             <Interval />
+            <Goal />
         </div>
     )
 }
