@@ -32,7 +32,7 @@ export default function Hero() {
                     <img src={logo} alt="" className="2xl:h-34 w-auto" />
                     <p className="2xl:max-w-176 dmFont font-semibold 2xl:text-[62px] leading-15 tracking-normal text-[#6A4830]">Awaken the best version of you, take care of your skin, take care of yourself.</p>
                     <p className="2xl:max-w-xl poppinsFont 2xl:font-semibold 2xl:text-lg">With my experience, I’m confident I can help you achieve the skin of your dreams. I can’t wait to welcome you to my treatment room!</p>
-                    <BookMyTreatment bg="#6A4830" content="white"/>
+                    <BookMyTreatment bg="#6A4830" content="#FFFFFF"/>
                 </div>
                 <img src={isa} alt="" className="2xl:h-298 absolute right-0 -bottom-88" />
                 <div className="w-full flex flex-col gap-8 absolute -bottom-46 z-20">
