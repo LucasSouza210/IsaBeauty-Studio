@@ -1,4 +1,5 @@
 import goalIsa from "../assets/images/goalIsa.jpg"
+import BookMyTreatment from "../components/BookMyTreatment"
 
 export default function Goal() {
     return (
@@ -14,7 +15,7 @@ export default function Goal() {
                         <p className="w-150 poppinsFont font-normal text-lg leading-5.5 text-black">Trusting someone from your family with your skin makes you feel more comfortable and safe.</p>
                         <p className="poppinsFont font-normal text-lg leading-5.5 text-black">We work closely with our clients as a team to achieve the best results.</p>
                     </div>
-                    <button className="px-8 py-3.5 interFont font-bold text-base tracking-[9%] rounded-full text-white bg-[#6A4830]">BOOK MY TREATMENT</button>
+                    <BookMyTreatment bg="#6A4830" content="#BF987E"/>
                 </div>
             </div>
         </div>

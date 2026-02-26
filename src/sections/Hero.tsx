@@ -1,7 +1,7 @@
-import { LuCircleArrowRight } from "react-icons/lu";
 import background from "../assets/images/heroBackground.png"
 import logo from "../assets/images/heroLogo.png"
 import isa from "../assets/images/heroIsa.png"
+import BookMyTreatment from "../components/BookMyTreatment";
 
 type Item = {
     total: string
@@ -31,11 +31,8 @@ export default function Hero() {
                 <div className="flex flex-col gap-9 items-start">
                     <img src={logo} alt="" className="2xl:h-34 w-auto" />
                     <p className="2xl:max-w-176 dmFont font-semibold 2xl:text-[62px] leading-15 tracking-normal text-[#6A4830]">Awaken the best version of you, take care of your skin, take care of yourself.</p>
-                    <p className="2xl:max-w-144 poppinsFont 2xl:font-semibold 2xl:text-lg">With my experience, I’m confident I can help you achieve the skin of your dreams. I can’t wait to welcome you to my treatment room!</p>
-                    <button className="flex items-center gap-4 interFont 2xl:font-bold 2xl:text-lg rounded-full px-8 py-3.5 bg-[#6A4830] text-[#FFFFFF]">
-                        BOOK MY TREATMENT
-                        <LuCircleArrowRight className="size-6 text-white" />
-                    </button>
+                    <p className="2xl:max-w-xl poppinsFont 2xl:font-semibold 2xl:text-lg">With my experience, I’m confident I can help you achieve the skin of your dreams. I can’t wait to welcome you to my treatment room!</p>
+                    <BookMyTreatment bg="#6A4830" content="white"/>
                 </div>
                 <img src={isa} alt="" className="2xl:h-298 absolute right-0 -bottom-88" />
                 <div className="w-full flex flex-col gap-8 absolute -bottom-46 z-20">
