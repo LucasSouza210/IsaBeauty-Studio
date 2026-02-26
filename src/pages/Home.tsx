@@ -1,6 +1,7 @@
 import About from "../sections/About";
 import Hero from "../sections/Hero";
 import Info from "../sections/Info";
+import Interval from "../sections/Interval";
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
             <Hero />
             <About />
             <Info />
+            <Interval />
         </div>
     )
 }
