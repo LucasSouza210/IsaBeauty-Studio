@@ -43,7 +43,7 @@ export default function Treatments() {
 
     return (
         <div className="w-full 2xl:py-26 flex justify-center bg-white">
-            <div className="w-300 h-full flex flex-col items-center justify-center gap-24">
+            <div className="2xl:w-280 h-full flex flex-col items-center justify-center gap-24">
                 <div className="flex items-center gap-10">
                     <img src={logo} alt="" className='h-12' />
                     <p className='poppinsFont font-semibold text-4xl leading-5.5 tracking-wide text-[#6A4830]'>Treatments</p>
@@ -51,14 +51,14 @@ export default function Treatments() {
                 <div className="grid grid-cols-3 grid-rows-2 justify-items-center gap-12">
                     {
                         treatments.map((i, index) => (
-                            <div className='2xl:w-90 flex flex-col gap-8 items-center' key={index}>
+                            <div className='2xl:w-78 flex flex-col gap-8 items-center' key={index}>
                                 <div className='w-full flex flex-col rounded-[14px] overflow-hidden'>
-                                    <img src={i.src} alt="" className='w-full 2xl:h-90 object-cover' />
+                                    <img src={i.src} alt="" className='w-full 2xl:h-78 object-cover' />
                                     <div className='w-full h-20 flex items-center justify-center bg-[#C0987E]'>
-                                        <p className='max-w-9/10 text-center poppinsFont font-semibold text-base tracking-widest text-white'>{i.title}</p>
+                                        <p className='max-w-9/10 text-center poppinsFont font-semibold text-[15px] tracking-widest text-white'>{i.title}</p>
                                     </div>
                                 </div>
-                                <p className='w-full h-38 poppinsFont font-medium text-base tracking-wide text-black'>{i.description}</p>
+                                <p className='w-full h-38 poppinsFont font-medium text-[15px] tracking-wide text-black'>{i.description}</p>
                                 <button className='w-74 h-14 flex items-center justify-center poppinsFont font-semibold text-base tracking-wider rounded-full bg-[#6A4830] text-white'>MAKE AN APPOINTMENT</button>
                             </div>
                         ))
