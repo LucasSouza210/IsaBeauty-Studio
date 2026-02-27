@@ -7,9 +7,9 @@ type Props = {
 
 export default function BookMyTreatment(props: Props) {
     return (
-        <button className={`flex items-center gap-4 interFont font-bold text-lg rounded-full px-7.5 py-3 bg-[${props.bg}] text-[${props.content == 'white' ? '#FFFFFF' : props.content}]`}>
+        <button className={`flex items-center gap-4 interFont font-bold text-lg rounded-full px-7.5 py-3 ${props.bg} ${props.content}`}>
             BOOK MY TREATMENT
-            <LuCircleArrowRight className={`size-6 text-[${props.content}]`}/>
+            <LuCircleArrowRight className={`size-6 ${props.content}`}/>
         </button>
     )
 }

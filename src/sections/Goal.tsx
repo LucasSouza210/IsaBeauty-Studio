@@ -15,7 +15,7 @@ export default function Goal() {
                         <p className="w-150 poppinsFont font-normal text-lg leading-5.5 text-black">Trusting someone from your family with your skin makes you feel more comfortable and safe.</p>
                         <p className="poppinsFont font-normal text-lg leading-5.5 text-black">We work closely with our clients as a team to achieve the best results.</p>
                     </div>
-                    <BookMyTreatment bg="#6A4830" content="#BF987E"/>
+                    <BookMyTreatment bg="bg-[#6A4830]" content="text-[#BF987E]"/>
                 </div>
             </div>
         </div>

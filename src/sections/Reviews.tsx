@@ -47,8 +47,8 @@ export default function Reviews() {
                                             getStars(4.5, 'text-yellow-500')
                                         }
                                     </div>
-                                    <p className="poppinsFont font-semibold text-lg leading-5.5 text-black">{i.name}</p>
-                                    <p className="poppinsFont font-normal text-sm leading-5.25 text-black">{i.review}</p>
+                                    <p className="poppinsFont font-semibold text-lg tracking-wider leading-5.5 text-black">{i.name}</p>
+                                    <p className="poppinsFont font-semibold text-sm tracking-wide leading-5.25 text-black">{i.review}</p>
                                 </div>
                             </div>
                         ))

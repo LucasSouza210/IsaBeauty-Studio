@@ -9,7 +9,7 @@ export default function Interval() {
                 <img src={logo} alt="" className="2xl:w-40 opacity-50" />
                 <p className="poppinsFont font-normal 2xl:text-[28px] tracking-[0%] leading-4 text-white">Now I can proudly say</p>
                 <p className="2xl:w-86 poppinsFont font-normal 2xl:text-[15px] leading-4.75 tracking-wide text-center text-white">I have helped hundreds of people transform their lives, and I can’t wait to help thousands more.</p>
-                <BookMyTreatment bg="#EFE6DF" content="#6A4830"/>
+                <BookMyTreatment bg="bg-[#EFE6DF]" content="text-[#6A4830]"/>
             </div>
         </div>
     )
