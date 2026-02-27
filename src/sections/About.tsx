@@ -5,7 +5,7 @@ import BookMyTreatment from "../components/BookMyTreatment"
 export default function About() {
     return (
         <div className="w-full 2xl:h-[87vh] flex justify-center z-10 relative bg-white">
-            <div className="2xl:w-300 h-auto flex flex-col absolute -bottom-28 z-10">
+            <div className="2xl:w-280 h-auto flex flex-col absolute -bottom-28 z-10">
                 <div className="flex flex-col items-center gap-2 2xl:mb-20">
                     <p className="interFont font-bold text-lg tracking-[0.5em] text-[#918F8F]">PERSONAL STATEMENT</p>
                     <p className="dmFont font-semibold text-[32px] text-[#6A4830]">My name is Isabel and I am your Skin Specialist.</p>

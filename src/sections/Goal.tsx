@@ -4,7 +4,7 @@ import BookMyTreatment from "../components/BookMyTreatment"
 export default function Goal() {
     return (
         <div className="w-full 2xl:h-158 flex justify-center bg-white">
-            <div className="2xl:w-300 h-full flex items-center gap-20">
+            <div className="2xl:w-280 h-full flex items-center gap-20">
                 <img src={goalIsa} alt="" className="2xl:h-96 2xl:w-110 object-cover rounded-[30px]" />
                 <div className="flex flex-col items-start gap-10">
                     <div className="flex flex-col gap-2">

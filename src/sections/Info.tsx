@@ -22,7 +22,7 @@ export default function Info() {
 
     return (
         <div className="w-full 2xl:h-[116vh] flex justify-center bg-[#EFE6DF]">
-            <div className="2xl:w-300 h-full flex flex-col justify-center gap-6">
+            <div className="2xl:w-280 h-full flex flex-col justify-center gap-6">
                 <div className="flex justify-between items-center">
                     <div className="flex flex-col gap-6">
                         <div className="flex flex-col">
@@ -36,8 +36,8 @@ export default function Info() {
                 <div className="w-full grid grid-cols-3 gap-6">
                     {
                         cards.map((i, index) => (
-                            <div className="w-full flex flex-col items-center h-60 rounded-xl bg-[#F7F2EE]" key={index}>
-                                <div className="flex flex-col mt-12 max-w-11/20">
+                            <div className="w-full flex flex-col items-center h-54 rounded-xl bg-[#F7F2EE]" key={index}>
+                                <div className="flex flex-col mt-8 max-w-12/20">
                                     <p className="poppinsFont font-semibold text-[52px] text-[#BF987E]">{i.step}</p>
                                     <div className="flex flex-col">
                                         <p className="poppinsFont font-bold text-xl text-black">{i.title}</p>
