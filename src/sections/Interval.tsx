@@ -4,11 +4,11 @@ import BookMyTreatment from "../components/BookMyTreatment"
 
 export default function Interval() {
     return (
-        <div className="w-full 2xl:h-116 bg-cover bg-position-[center_31%]" style={{ backgroundImage: `url(${isaBg})` }}>
+        <div className="w-full xl:h-90 2xl:h-116 bg-cover bg-position-[center_32%] 2xl:bg-position-[center_31%]" style={{ backgroundImage: `url(${isaBg})` }}>
             <div className="size-full flex flex-col items-center justify-center gap-8 bg-[#76523C]/85">
-                <img src={logo} alt="" className="2xl:w-40 opacity-50" />
-                <p className="poppinsFont font-normal 2xl:text-[28px] tracking-[0%] leading-4 text-white">Now I can proudly say</p>
-                <p className="2xl:w-86 poppinsFont font-normal 2xl:text-[15px] leading-4.75 tracking-wide text-center text-white">I have helped hundreds of people transform their lives, and I can’t wait to help thousands more.</p>
+                <img src={logo} alt="" className="xl:w-39 2xl:w-40 opacity-50" />
+                <p className="poppinsFont font-light 2xl:font-normal xl:text-2xl 2xl:text-[28px] tracking-wide leading-4 text-white">Now I can proudly say</p>
+                <p className="xl:w-72 2xl:w-86 poppinsFont xl:font-extralight 2xl:font-normal xl:text-xs 2xl:text-[15px] leading-4.75 xl:tracking-wider 2xl:tracking-wide text-center text-white">I have helped hundreds of people transform their lives, and I can’t wait to help thousands more.</p>
                 <BookMyTreatment bg="bg-[#EFE6DF]" content="text-[#6A4830]"/>
             </div>
         </div>
