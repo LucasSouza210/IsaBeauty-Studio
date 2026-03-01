@@ -4,8 +4,8 @@ import BookMyTreatment from "../components/BookMyTreatment"
 
 export default function About() {
     return (
-        <div className="w-full xl:h-[87vh] flex justify-center z-10 relative bg-white">
-            <div className="xl:w-226 2xl:w-280 h-auto flex flex-col absolute xl:-bottom-20 2xl:-bottom-28 z-10">
+        <div className="w-full lg:h-[87vh] flex justify-center z-10 relative bg-white">
+            <div className="lg:w-176 xl:w-226 2xl:w-280 h-auto flex flex-col absolute lg:bottom-16 xl:-bottom-20 2xl:-bottom-28 z-10">
                 <div className="flex flex-col items-center gap-2.5 xl:mb-14 2xl:mb-24">
                     <p className="interFont font-bold xl:text-lg 2xl:text-xl tracking-[0.5em] text-[#918F8F]">PERSONAL STATEMENT</p>
                     <p className="dmFont font-semibold text-[32px] 2xl:text-4xl text-[#6A4830]">My name is Isabel and I am your Skin Specialist.</p>
