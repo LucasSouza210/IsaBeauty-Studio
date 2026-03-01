@@ -43,7 +43,7 @@ export default function Treatments() {
 
     return (
         <div className="w-full xl:py-30 2xl:py-34 flex justify-center bg-white">
-            <div className="xl:w-226 2xl:w-280 h-full flex flex-col items-center justify-center gap-24">
+            <div className="xl:w-218 2xl:w-280 h-full flex flex-col items-center justify-center gap-24">
                 <div className="flex items-center xl:gap-8 2xl:gap-10">
                     <img src={logo} alt="" className='xl:h-10 2xl:h-12' />
                     <p className='poppinsFont font-semibold xl:text-[32px] 2xl:text-4xl leading-5.5 tracking-wide text-[#6A4830]'>Treatments</p>

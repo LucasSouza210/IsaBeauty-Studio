@@ -28,7 +28,7 @@ export default function Reviews() {
 
     return (
         <div className="w-full xl:pt-22 2xl:pt-26 xl:pb-12 2xl:pb-18 flex justify-center bg-[#EFE6DF]">
-            <div className="xl:w-226 2xl:w-280 h-full flex flex-col justify-center gap-12">
+            <div className="xl:w-218 2xl:w-280 h-full flex flex-col justify-center gap-12">
                 <div className="flex items-center xl:gap-7.5 2xl:gap-9">
                     <p className="poppinsFont font-semibold xl:text-[24px] 2xl:text-[26px] leading-5.5 text-[#6A4830]">Customer reviews</p>
                     <div className="flex items-center gap-1">

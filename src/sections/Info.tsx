@@ -22,7 +22,7 @@ export default function Info() {
 
     return (
         <div className="w-full h-[116vh] flex justify-center bg-[#EFE6DF]">
-            <div className="xl:w-226 2xl:w-280 h-full flex flex-col justify-center gap-6">
+            <div className="lg:w-176 xl:w-218 2xl:w-280 h-full flex flex-col justify-center gap-6">
                 <div className="flex justify-between items-center">
                     <div className="flex flex-col gap-6">
                         <div className="flex flex-col">
