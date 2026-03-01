@@ -22,26 +22,26 @@ export default function Info() {
 
     return (
         <div className="w-full h-[116vh] flex justify-center bg-[#EFE6DF]">
-            <div className="lg:w-176 xl:w-218 2xl:w-280 h-full flex flex-col justify-center gap-6">
+            <div className="lg:w-174 xl:w-218 2xl:w-280 h-full flex flex-col justify-center gap-6">
                 <div className="flex justify-between items-center">
-                    <div className="flex flex-col gap-6">
+                    <div className="flex flex-col lg:gap-2.5 xl:gap-5 2xl:gap-7">
                         <div className="flex flex-col">
-                            <p className="xl:w-97 2xl:w-106 dmFont font-semibold xl:text-2xl 2xl:text-[26px] leading-7.5 text-black">YOU DON’T HAVE TO LIVE WITH SKIN OR BODY INSECURITIES.</p>
-                            <p className="xl:w-115.5 2xl:w-132.5 dmFont font-semibold xl:text-[40px] 2xl:text-[46px] text-[#6A4830]">I can help you change that.</p>
+                            <p className="dmFont font-semibold lg:text-[17px] xl:text-[19px] 2xl:text-[26px] leading-7.5 text-black">YOU DON’T HAVE TO LIVE WITH <br /> SKIN OR BODY INSECURITIES.</p>
+                            <p className="xl:w-115.5 2xl:w-132.5 dmFont font-semibold lg:text-[32px] xl:text-4xl 2xl:text-[46px] text-[#6A4830]">I can help you change that.</p>
                         </div>
-                        <p className="whitespace-nowrap fontPoppins xl:font-bold 2xl:font-semibold xl:text-xs 2xl:text-sm leading-5.5 text-black">If you struggle with acne, pigmentation, dull skin, sagging, localized fat <br /> or lack of firmness. I create targeted facial and body treatments designed <br /> to correct, improve and restore your confidence. Your concerns are specific. <br /> Your treatment should be too.</p>
+                        <p className="whitespace-nowrap fontPoppins xl:font-bold lg:font-semibold lg:text-[10px] xl:text-[11px] 2xl:text-sm leading-5.5 tracking-wide text-black">If you struggle with acne, pigmentation, dull skin, sagging, localized fat <br /> or lack of firmness. I create targeted facial and body treatments designed <br /> to correct, improve and restore your confidence. Your concerns are specific. <br /> Your treatment should be too.</p>
                     </div>
-                    <img src={info} alt="" className="xl:size-80 2xl:size-136 " />
+                    <img src={info} alt="" className="lg:size-76 xl:size-98 2xl:size-136 " />
                 </div>
-                <div className="w-full grid grid-cols-3 xl:gap-5 2xl:gap-6">
+                <div className="w-full grid grid-cols-3 lg:gap-3.5 xl:gap-5 2xl:gap-6">
                     {
                         cards.map((i, index) => (
-                            <div className="w-full xl:h-46 2xl:h-54 flex flex-col items-center rounded-xl bg-[#F7F2EE]" key={index}>
-                                <div className="flex flex-col xl:mt-10 2xl:mt-12 max-w-13/20">
-                                    <p className="poppinsFont font-semibold text-5xl 2xl:text-[52px] text-[#BF987E]">{i.step}</p>
-                                    <div className="flex flex-col">
-                                        <p className="poppinsFont font-bold xl:text-[17px] 2xl:text-xl text-black">{i.title}</p>
-                                        <p className="poppinsFont font-bold xl:text-[10px] 2xl:text-xs text-black">{i.description}</p>
+                            <div className="w-full lg:h-34 xl:h-44 2xl:h-54 flex flex-col items-center rounded-xl relative bg-[#F7F2EE]" key={index}>
+                                <div className="flex flex-col lg:gap-1 xl:gap-1.5 2xl:gap-2 absolute lg:top-[16%] xl:top-[20%] 2xl:top-[22%] lg:max-w-14/19 xl:max-w-13/20">
+                                    <p className="poppinsFont font-semibold lg:text-4xl xl:text-[46px] 2xl:text-[52px] leading-none text-[#BF987E]">{i.step}</p>
+                                    <div className="flex flex-col lg:gap-1 2xl:gap-1">
+                                        <p className="poppinsFont font-bold lg:text-[13px] xl:text-[17px] 2xl:text-xl leading-none text-black">{i.title}</p>
+                                        <p className="poppinsFont font-bold lg:text-[9px] xl:text-[10px] 2xl:text-xs text-black">{i.description}</p>
                                     </div>
                                 </div>
                             </div>

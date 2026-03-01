@@ -27,7 +27,7 @@ export default function Hero() {
 
     return (
         <div className="w-full min-h-screen flex justify-center bg-cover bg-center" style={{ backgroundImage: `url(${background})` }}>
-            <div className="lg:w-180 xl:w-218 2xl:w-280 min-h-full flex flex-col justify-center items-start 2xl:gap-9 relative">
+            <div className="lg:w-174 xl:w-218 2xl:w-280 min-h-full flex flex-col justify-center items-start 2xl:gap-9 relative">
                 <div className="flex flex-col lg:gap-6 xl:gap-7.5 2xl:gap-9 items-start absolute lg:top-34 xl:top-36 2xl:top-42">
                     <img src={logo} alt="" className="lg:h-12 xl:h-16 2xl:h-18 w-auto xl:mb-1 2xl:mb-2" />
                     <p className="dmFont font-semibold lg:text-[35px] xl:text-[44px] 2xl:text-[52px] lg:leading-9 xl:leading-12 2xl:leading-15 lg:tracking-tight xl:tracking-normal text-[#6A4830]">Awaken the best version <br /> of you, take care of your <br /> skin, take care of yourself.</p>
