@@ -42,24 +42,24 @@ export default function Treatments() {
     ]
 
     return (
-        <div className="w-full 2xl:py-26 flex justify-center bg-white">
-            <div className="2xl:w-280 h-full flex flex-col items-center justify-center gap-24">
-                <div className="flex items-center gap-10">
-                    <img src={logo} alt="" className='h-12' />
-                    <p className='poppinsFont font-semibold text-4xl leading-5.5 tracking-wide text-[#6A4830]'>Treatments</p>
+        <div className="w-full xl:py-30 2xl:py-34 flex justify-center bg-white">
+            <div className="xl:w-226 2xl:w-280 h-full flex flex-col items-center justify-center gap-24">
+                <div className="flex items-center xl:gap-8 2xl:gap-10">
+                    <img src={logo} alt="" className='xl:h-10 2xl:h-12' />
+                    <p className='poppinsFont font-semibold xl:text-[32px] 2xl:text-4xl leading-5.5 tracking-wide text-[#6A4830]'>Treatments</p>
                 </div>
-                <div className="grid grid-cols-3 grid-rows-2 justify-items-center gap-12">
+                <div className="grid grid-cols-3 grid-rows-2 justify-items-center xl:gap-x-10 2xl:gap-x-14 xl:gap-y-19 2xl:gap-y-26">
                     {
                         treatments.map((i, index) => (
-                            <div className='2xl:w-78 flex flex-col gap-8 items-center' key={index}>
+                            <div className='w-full flex flex-col gap-8 items-center' key={index}>
                                 <div className='w-full flex flex-col rounded-[14px] overflow-hidden'>
-                                    <img src={i.src} alt="" className='w-full 2xl:h-78 object-cover' />
-                                    <div className='w-full h-20 flex items-center justify-center bg-[#C0987E]'>
-                                        <p className='max-w-9/10 text-center poppinsFont font-semibold text-[15px] tracking-widest text-white'>{i.title}</p>
+                                    <img src={i.src} alt="" className='w-full aspect-square object-cover' />
+                                    <div className='w-full h-16 2xl:h-18 flex items-center justify-center bg-[#C0987E]'>
+                                        <p className='max-w-9/10 text-center poppinsFont font-semibold xl:text-xs text-sm tracking-widest text-white'>{i.title}</p>
                                     </div>
                                 </div>
-                                <p className='w-full h-38 poppinsFont font-medium text-[15px] tracking-wide text-black'>{i.description}</p>
-                                <button className='w-74 h-14 flex items-center justify-center poppinsFont font-semibold text-base tracking-wider rounded-full bg-[#6A4830] text-white'>MAKE AN APPOINTMENT</button>
+                                <p className='w-full xl:h-37 2xl:h-42 poppinsFont font-medium xl:text-sm 2xl:text-base tracking-wide text-black'>{i.description}</p>
+                                <button className='w-9/10 xl:h-11 2xl:h-13 flex items-center justify-center poppinsFont font-semibold xl:text-sm 2xl:text-base tracking-wider rounded-full bg-[#6A4830] text-white'>MAKE AN APPOINTMENT</button>
                             </div>
                         ))
                     }
