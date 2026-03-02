@@ -5,7 +5,7 @@ export default function Goal() {
     return (
         <div className="w-full lg:h-110 xl:h-132 2xl:h-160 flex justify-center bg-white">
             <div className="lg:w-174 xl:w-218 2xl:w-280 h-full flex items-center lg:gap-12 xl:gap-15 2xl:gap-18 overflow-x-visible">
-                <img src={goalIsa} alt="" className="lg:h-70 xl:h-82 2xl:h-96 lg:w-80 xl:w-96 2xl:w-110 object-cover rounded-[24px] xl:rounded-[30px]" />
+                <img src={goalIsa} alt="" className="lg:h-70 xl:h-82 2xl:h-96 lg:w-80 xl:w-96 2xl:w-110 object-cover rounded-3xl xl:rounded-[30px]" />
                 <div className="flex flex-col items-start lg:gap-7 xl:gap-7.5 2xl:gap-10">
                     <div className="flex flex-col lg:gap-2.5 2xl:gap-3">
                         <p className="poppinsFont font-medium lg:text-xs xl:text-[15px] 2xl:text-lg tracking-[0.4em] xl:tracking-[0.4em] text-[#6A4830]">OUR GOAL</p>
