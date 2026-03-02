@@ -53,10 +53,10 @@ export default function Reviews() {
                             ))
                         }
                     </div>
-                    <div className="w-full flex justify-center xl:gap-3 2xl:gap-3.5">
+                    <div className="w-full flex justify-center lg:gap-2.5 xl:gap-3 2xl:gap-3.5">
                         {
                             [0, 1, 2].map((i, index) => (
-                                <span className="xl:size-2.5 2xl:size-3 rounded-full bg-white" key={index} />
+                                <span className="lg:size-2 xl:size-2.5 2xl:size-3 rounded-full bg-white" key={index} />
                             ))
                         }
                     </div>

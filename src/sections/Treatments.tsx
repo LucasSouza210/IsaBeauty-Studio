@@ -42,24 +42,24 @@ export default function Treatments() {
     ]
 
     return (
-        <div className="w-full xl:py-30 2xl:py-34 flex justify-center bg-white">
-            <div className="xl:w-218 2xl:w-280 h-full flex flex-col items-center justify-center gap-24">
-                <div className="flex items-center xl:gap-8 2xl:gap-10">
-                    <img src={logo} alt="" className='xl:h-10 2xl:h-12' />
-                    <p className='poppinsFont font-semibold xl:text-[32px] 2xl:text-4xl leading-5.5 tracking-wide text-[#6A4830]'>Treatments</p>
+        <div className="w-full lg:py-22 xl:py-28 2xl:py-34 flex justify-center bg-white">
+            <div className="lg:w-174 xl:w-218 2xl:w-280 h-full flex flex-col items-center justify-center lg:gap-14 xl:gap-18 2xl:gap-24">
+                <div className="flex items-center lg:gap-5 xl:gap-6 2xl:gap-8">
+                    <img src={logo} alt="" className='lg:h-9 xl:h-11 2xl:h-13' />
+                    <p className='poppinsFont font-semibold lg:text-2xl xl:text-[30px] 2xl:text-4xl leading-5.5 tracking-wide text-[#6A4830]'>Treatments</p>
                 </div>
-                <div className="grid grid-cols-3 grid-rows-2 justify-items-center xl:gap-x-10 2xl:gap-x-14 xl:gap-y-19 2xl:gap-y-26">
+                <div className="grid grid-cols-3 grid-rows-2 justify-items-center lg:gap-x-8 xl:gap-x-10 2xl:gap-x-13 lg:gap-y-14 xl:gap-y-19 2xl:gap-y-26">
                     {
                         treatments.map((i, index) => (
-                            <div className='w-full flex flex-col gap-8 items-center' key={index}>
+                            <div className='w-full flex flex-col lg:gap-4 xl:gap-6 2xl:gap-8 items-center' key={index}>
                                 <div className='w-full flex flex-col rounded-[14px] overflow-hidden'>
                                     <img src={i.src} alt="" className='w-full aspect-square object-cover' />
-                                    <div className='w-full h-16 2xl:h-18 flex items-center justify-center bg-[#C0987E]'>
-                                        <p className='max-w-9/10 text-center poppinsFont font-semibold xl:text-xs text-sm tracking-widest text-white'>{i.title}</p>
+                                    <div className='w-full lg:h-13 xl:h-16 2xl:h-18 flex items-center justify-center bg-[#C0987E]'>
+                                        <p className='max-w-9/10 text-center poppinsFont font-semibold lg:text-[10px] xl:text-xs text-sm lg:tracking-widest lg:leading-3 xl:leading-4 2xl:leading-4.5 text-white'>{i.title}</p>
                                     </div>
                                 </div>
-                                <p className='w-full xl:h-37 2xl:h-42 poppinsFont font-medium xl:text-sm 2xl:text-base tracking-wide text-black'>{i.description}</p>
-                                <button className='w-9/10 xl:h-11 2xl:h-13 flex items-center justify-center poppinsFont font-semibold xl:text-sm 2xl:text-base tracking-wider rounded-full bg-[#6A4830] text-white'>MAKE AN APPOINTMENT</button>
+                                <p className='w-full lg:h-36 xl:h-40 2xl:h-48 poppinsFont font-medium lg:text-[11px] xl:text-[13px] 2xl:text-base lg:tracking-widest lg:leading-4 xl:leading-5 2xl:leading-6 text-black'>{i.description}</p>
+                                <button className='w-17/20 lg:h-8.5 xl:h-10 2xl:h-13 flex items-center justify-center poppinsFont font-semibold lg:text-[11px] xl:text-[13px] 2xl:text-base tracking-wider rounded-full bg-[#6A4830] text-white'>MAKE AN APPOINTMENT</button>
                             </div>
                         ))
                     }

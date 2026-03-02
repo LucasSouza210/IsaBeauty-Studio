@@ -29,7 +29,7 @@ export default function Info() {
                             <p className="dmFont font-semibold lg:text-[17px] xl:text-[21px] 2xl:text-[26px] leading-7.5 2xl:leading-9 text-black">YOU DON’T HAVE TO LIVE WITH <br /> SKIN OR BODY INSECURITIES.</p>
                             <p className="dmFont font-semibold lg:text-[32px] xl:text-[38px] 2xl:text-[46px] tracking-wide 2xl:tracking-wider text-[#6A4830]">I can help you change that.</p>
                         </div>
-                        <p className="whitespace-nowrap fontPoppins xl:font-bold lg:font-semibold lg:text-[10px] xl:text-[11px] 2xl:text-sm leading-5.5 tracking-wider text-black">If you struggle with acne, pigmentation, dull skin, sagging, localized fat <br /> or lack of firmness. I create targeted facial and body treatments designed <br /> to correct, improve and restore your confidence. Your concerns are specific. <br /> Your treatment should be too.</p>
+                        <p className="whitespace-nowrap fontPoppins xl:font-bold lg:font-semibold lg:text-[10px] xl:text-[11px] 2xl:text-sm lg:leading-3.5 xl:leading-5 2xl:leading-5.5 tracking-wider text-black">If you struggle with acne, pigmentation, dull skin, sagging, localized fat <br /> or lack of firmness. I create targeted facial and body treatments designed <br /> to correct, improve and restore your confidence. Your concerns are specific. <br /> Your treatment should be too.</p>
                     </div>
                     <img src={info} alt="" className="lg:size-76 xl:size-98 2xl:size-132" />
                 </div>
