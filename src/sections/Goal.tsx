@@ -3,7 +3,7 @@ import BookMyTreatment from "../components/BookMyTreatment"
 
 export default function Goal() {
     return (
-        <div className="w-full lg:h-110 xl:h-132 2xl:h-160 flex justify-center px-10 lg:px-0 py-16 lg:py-0 bg-white">
+        <div className="w-full lg:h-110 xl:h-132 2xl:h-160 flex justify-center px-10 lg:px-0 py-14 lg:py-0 bg-white">
             <div className="w-full lg:w-174 xl:w-218 2xl:w-280 h-full flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-12 xl:gap-15 2xl:gap-18 overflow-x-visible">
                 <img src={goalIsa} alt="" className="aspect-square lg:aspect-auto lg:h-70 xl:h-82 2xl:h-96 w-full lg:w-80 xl:w-96 2xl:w-110 object-cover rounded-3xl xl:rounded-[30px]" />
                 <div className="flex flex-col items-start gap-6 lg:gap-7 xl:gap-7.5 2xl:gap-10">
