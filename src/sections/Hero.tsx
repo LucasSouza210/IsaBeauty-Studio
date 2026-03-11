@@ -34,7 +34,7 @@ export default function Hero() {
                     <img src={isaMobile} alt="" className="block lg:hidden w-7/10 object-cover mt-8 [mask-image:linear-gradient(to_bottom,black_75%,transparent_100%)]"/>
                     <p className="dmFont font-semibold text-center lg:text-start text-[20px] lg:text-[35px] xl:text-[44px] 2xl:text-[52px] leading-7 lg:leading-9 xl:leading-12 2xl:leading-15 lg:tracking-tight xl:tracking-normal text-[#6A4830]">Awaken the best version <br className="hidden lg:block"/> of you, take care of your <br className="hidden lg:block"/> skin, take care of yourself.</p>
                     <p className="whitespace-nowrap poppinsFont font-semibold text-center lg:text-start text-xs lg:text-[10px] xl:text-sm 2xl:text-base tracking-wide xl:tracking-normal">With my experience, I’m confident I can help you<br className="lg:hidden"/> achieve the skin <br className="hidden lg:block"/> of your dreams. I can’t wait<br className="lg:hidden"/> to welcome you to my treatment room!</p>
-                    <BookMyTreatment bg="bg-[#6A4830]" content="text-[#FFFFFF]"/>
+                    <BookMyTreatment bg="bg-[#6A4830]" content="text-[#FFFFFF] px-0"/>
                 </div>
                 <img src={isa} alt="" className="hidden lg:block lg:h-210 xl:h-242 2xl:h-306 absolute right-0 -bottom-6 lg:-bottom-63 xl:-bottom-70 2xl:-bottom-88" />
                 <div className="w-full flex flex-col gap-4 lg:gap-5 xl:gap-6 2xl:gap-7 relative lg:absolute lg:-bottom-28 xl:-bottom-32 2xl:-bottom-40 lg:z-20">

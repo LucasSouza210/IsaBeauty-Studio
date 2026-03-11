@@ -4,7 +4,7 @@ import BookMyTreatment from "../components/BookMyTreatment"
 
 export default function About() {
     return (
-        <div className="w-full h-auto lg:h-[87vh] flex justify-center items-center z-10 py-16 lg:py-0 px-10 relative bg-white">
+        <div className="w-full h-auto lg:h-[87vh] flex justify-center items-center z-10 py-16 lg:py-0 px-10 lg:px-0 relative bg-white">
             <div className="w-full lg:w-174 xl:w-218 2xl:w-280 h-auto flex flex-col items-center gap-20 lg:absolute lg:-bottom-16 xl:-bottom-20 2xl:-bottom-28 z-10">
                 <div className="flex flex-col items-center gap-1 lg:gap-0 xl:gap-0.5 2xl:gap-2.5 lg:mb-12 xl:mb-14 2xl:mb-24">
                     <p className="interFont font-bold text-[9px] lg:text-[12px] xl:text-[15px] 2xl:text-xl tracking-[0.35em] lg:tracking-[0.45em] text-[#918F8F]">PERSONAL STATEMENT</p>
@@ -23,7 +23,7 @@ export default function About() {
                         <div className="flex flex-col items-center lg:items-start gap-4 lg:gap-3.5 xl:gap-3.5 2xl:gap-7">
                             <p className="lg:whitespace-nowrap dmFont font-semibold lg:text-base xl:text-[19px] 2xl:text-2xl lg:leading-4 xl:leading-5 2xl:leading-6.5 lg:tracking-[0.015em] xl:tracking-wider text-[#6B452E]">With over 10 years of experience in the beauty <br className="hidden lg:block"/> industry, I combine professional expertise with <br className="hidden lg:block"/> a true passion for skin improvement and self-care.</p>
                             <p className="mb-4 lg:mb-0 lg:whitespace-nowrap dmFont text-xs xl:font-medium lg:text-[9px] xl:text-[11px] 2xl:text-sm leading-4.5 lg:leading-3.5 xl:leading-4 2xl:leading-5 lg:tracking-[0.085em] xl:tracking-[0.09em] xl:mb-2 2xl:mb-0 lg:text-white">Over the years, I have completed multiple courses and earned certifications in <br className="hidden lg:block"/> different countries, gaining an international perspective on the latest beauty <br className="hidden lg:block"/> techniques and trends. At IsaBeauty, quality is essential. I work with carefully <br className="hidden lg:block"/> selected products and treatments that deliver real results, always tailored to <br className="hidden lg:block"/> your skin and individual needs.</p>
-                            <BookMyTreatment bg="bg-[#6A4830]" content="text-[#FFFFFF]" style="w-8/10 flex justify-center items-center"/>
+                            <BookMyTreatment bg="bg-[#6A4830]" content="text-[#FFFFFF]" style="flex justify-center items-center"/>
                         </div>
                     </div>
                 </div>
