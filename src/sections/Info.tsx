@@ -36,7 +36,7 @@ export default function Info() {
                 <div className="w-full flex flex-col lg:grid grid-cols-3 gap-5 sm:gap-6 md:gap-7 lg:gap-3.5 xl:gap-5 2xl:gap-6">
                     {
                         cards.map((i, index) => (
-                            <div className="w-full h-48 sm:h-56 md:h-66 lg:h-36 xl:h-46 2xl:h-56 flex flex-col items-center justify-center lg:justify-start rounded-xl lg:relative lg:py-0 px-10 sm:px-12 md:px-14 lg:px-0 bg-[#F7F2EE]" key={index}>
+                            <div className="w-full h-48 sm:h-56 md:h-66 lg:h-36 xl:h-46 2xl:h-58 flex flex-col items-center justify-center lg:justify-start rounded-xl lg:relative lg:py-0 px-10 sm:px-12 md:px-14 lg:px-0 bg-[#F7F2EE]" key={index}>
                                 <div className="flex flex-col gap-2.5 sm:gap-3 md:gap-3.5 lg:gap-1 xl:gap-2.5 2xl:gap-3 lg:absolute lg:top-[15%] xl:top-[16%] 2xl:top-[20%] lg:max-w-15/20 xl:max-w-14/20">
                                     <p className="poppinsFont font-semibold text-5xl sm:text-6xl md:text-[70px] lg:text-4xl xl:text-[46px] 2xl:text-[52px] leading-none text-[#BF987E]">{i.step}</p>
                                     <div className="flex flex-col gap-1 sm:gap-2 md:gap-2.5 lg:gap-1 xl:gap-1.5 2xl:gap-2">
