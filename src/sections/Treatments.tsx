@@ -43,7 +43,7 @@ export default function Treatments() {
 
     return (
         <div className="w-full py-14 lg:py-22 xl:py-28 2xl:py-34 px-10 lg:px-0 flex justify-center bg-white">
-            <div className="w-full lg:w-174 xl:w-218 2xl:w-280 h-full flex flex-col items-center justify-center gap-12 lg:gap-14 xl:gap-18 2xl:gap-24">
+            <div className="w-full lg:w-176 xl:w-218 2xl:w-280 h-full flex flex-col items-center justify-center gap-12 lg:gap-14 xl:gap-18 2xl:gap-24">
                 <div className="flex items-center gap-4 lg:gap-5 xl:gap-6 2xl:gap-8">
                     <img src={logo} alt="" className='h-7 lg:h-9 xl:h-11 2xl:h-13' />
                     <p className='poppinsFont font-semibold text-lg lg:text-2xl xl:text-[30px] 2xl:text-4xl tracking-wide leading-none text-[#6A4830]'>Treatments</p>

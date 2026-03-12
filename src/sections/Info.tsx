@@ -22,7 +22,7 @@ export default function Info() {
 
     return (
         <div className="w-full lg:h-[116vh] flex justify-center py-16 lg:py-0 px-10 lg:px-0 bg-[#EFE6DF]">
-            <div className="w-full lg:w-174 xl:w-218 2xl:w-280 h-full flex flex-col justify-center gap-6 xl:gap-4 2xl:gap-6">
+            <div className="w-full lg:w-176 xl:w-218 2xl:w-280 h-full flex flex-col justify-center gap-6 xl:gap-4 2xl:gap-6">
                 <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-4 lg:gap-0">
                     <div className="flex flex-col gap-4 lg:gap-2.5 xl:gap-5 2xl:gap-8">
                         <div className="flex flex-col gap-2 lg:gap-0 xl:gap-1 2xl:gap-2.5">
