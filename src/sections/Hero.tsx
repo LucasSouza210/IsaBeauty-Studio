@@ -27,8 +27,8 @@ export default function Hero() {
     ]
 
     return (
-        <div className="w-full min-h-screen flex justify-center bg-cover bg-center lg:p-0 pt-12 sm:pt-13 md:pt-14 lg:pt-0 px-10 lg:px-0 pb-10 sm:pb-12 lg:pb-0" style={{ backgroundImage: `url(${background})` }}>
-            <div className="w-full sm:w-7/10 md:w-[65%] lg:w-176 xl:w-218 2xl:w-280 min-h-full flex flex-col lg:justify-center lg:items-start gap-9 sm:gap-10 md:gap-12 lg:gap-0 2xl:gap-9 relative">
+        <div className="w-full min-h-screen flex justify-center bg-cover bg-center lg:p-0 pt-12 sm:pt-13 md:pt-14 lg:pt-0 px-10 sm:px-16 lg:px-0 pb-10 sm:pb-12 lg:pb-0" style={{ backgroundImage: `url(${background})` }}>
+            <div className="w-full sm:w-7/10 lg:w-176 xl:w-218 2xl:w-280 min-h-full flex flex-col lg:justify-center lg:items-start gap-9 sm:gap-10 md:gap-12 lg:gap-0 2xl:gap-9 relative">
                 <div className="w-full lg:w-auto flex flex-col items-center lg:items-start gap-6 sm:gap-6.5 md:gap-8 lg:gap-5.5 xl:gap-7 2xl:gap-9 lg:absolute lg:top-38 xl:top-36 2xl:top-42">
                     <img src={logo} alt="" className="h-10 sm:h-13 md:h-16 lg:h-11 xl:h-15 2xl:h-18 w-auto xl:mb-1 2xl:mb-2" />
                     <img src={isaMobile} alt="" className="w-7/10 sm:w-3/4 block lg:hidden object-cover mt-8 [mask-image:linear-gradient(to_bottom,black_90%,transparent_99%,transparent_100%)]"/>

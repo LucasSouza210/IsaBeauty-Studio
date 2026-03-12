@@ -4,8 +4,8 @@ import BookMyTreatment from "../components/BookMyTreatment"
 
 export default function About() {
     return (
-        <div className="w-full h-auto lg:h-[87vh] flex justify-center items-center z-10 py-16 sm:py-17 md:py-18 lg:py-0 px-10 lg:px-0 relative bg-white">
-            <div className="w-full sm:w-7/10 md:w-[65%] lg:w-176 xl:w-218 2xl:w-280 h-auto flex flex-col items-center gap-20 sm:gap-22 md:gap-24 lg:absolute lg:-bottom-16 xl:-bottom-20 2xl:-bottom-28 z-10">
+        <div className="w-full h-auto lg:h-[87vh] flex justify-center items-center z-10 py-16 sm:py-17 md:py-18 lg:py-0 px-10 md:px-16 lg:px-0 relative bg-white">
+            <div className="w-full sm:w-7/10 lg:w-176 xl:w-218 2xl:w-280 h-auto flex flex-col items-center gap-20 sm:gap-22 md:gap-24 lg:absolute lg:-bottom-16 xl:-bottom-20 2xl:-bottom-28 z-10">
                 <div className="flex flex-col items-center gap-2.5 sm:gap-3 md:gap-3.5 lg:gap-0 xl:gap-0.5 2xl:gap-2.5 lg:mb-12 xl:mb-14 2xl:mb-24">
                     <p className="interFont font-bold text-[9px] sm:text-[11px] md:text-xs lg:text-[12px] xl:text-[15px] 2xl:text-xl tracking-[0.35em] md:tracking-[0.4em] lg:tracking-[0.45em] leading-none text-[#918F8F]">PERSONAL STATEMENT</p>
                     <p className="dmFont font-semibold text-xs sm:text-lg md:text-xl lg:text-2xl xl:text-[28px] 2xl:text-4xl leading-none text-[#6A4830]">My name is Isabel and I am your Skin Specialist.</p>
