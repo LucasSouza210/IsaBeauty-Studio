@@ -28,7 +28,7 @@ export default function Hero() {
 
     return (
         <div className="w-full min-h-screen flex justify-center bg-cover bg-center lg:p-0 pt-12 sm:pt-13 md:pt-14 lg:pt-0 px-10 lg:px-0 pb-10 sm:pb-12 lg:pb-0" style={{ backgroundImage: `url(${background})` }}>
-            <div className="w-full sm:w-7/10 lg:w-176 xl:w-218 2xl:w-280 min-h-full flex flex-col lg:justify-center lg:items-start gap-9 sm:gap-10 md:gap-12 lg:gap-0 2xl:gap-9 relative">
+            <div className="w-full sm:w-7/10 md:w-[65%] lg:w-176 xl:w-218 2xl:w-280 min-h-full flex flex-col lg:justify-center lg:items-start gap-9 sm:gap-10 md:gap-12 lg:gap-0 2xl:gap-9 relative">
                 <div className="w-full lg:w-auto flex flex-col items-center lg:items-start gap-6 sm:gap-6.5 md:gap-8 lg:gap-5.5 xl:gap-7 2xl:gap-9 lg:absolute lg:top-38 xl:top-36 2xl:top-42">
                     <img src={logo} alt="" className="h-10 sm:h-13 md:h-16 lg:h-11 xl:h-15 2xl:h-18 w-auto xl:mb-1 2xl:mb-2" />
                     <img src={isaMobile} alt="" className="w-7/10 sm:w-3/4 block lg:hidden object-cover mt-8 [mask-image:linear-gradient(to_bottom,black_90%,transparent_99%,transparent_100%)]"/>
@@ -39,7 +39,7 @@ export default function Hero() {
                 <img src={isa} alt="" className="hidden lg:block lg:h-210 xl:h-242 2xl:h-306 absolute right-0 -bottom-6 lg:-bottom-63 xl:-bottom-70 2xl:-bottom-88" />
                 <div className="w-full flex flex-col gap-5 sm:gap-6 md:gap-7 lg:gap-5 xl:gap-6 2xl:gap-7 relative lg:absolute lg:-bottom-28 xl:-bottom-32 2xl:-bottom-40 lg:z-20">
                     <p className="poppinsFont font-bold text-sm sm:text-base md:text-lg lg:text-sm xl:text-base 2xl:text-lg leading-[1.44] tracking-wide">Some brands we reached</p>
-                    <div className="flex flex-col lg:grid grid-cols-3 gap-6 sm:gap-7 md:gap-8 lg:gap-6 xl:gap-7 2xl:gap-8">
+                    <div className="flex flex-col lg:grid grid-cols-3 gap-6 sm:gap-7 md:gap-9 lg:gap-6 xl:gap-7 2xl:gap-8">
                         {
                             data.map((i, index) => (
                                 <div className="w-full h-46 sm:h-54 md:h-66 lg:h-38 xl:h-46 2xl:h-58 flex items-end justify-center rounded-[10px] sm:rounded-[11px] md:rounded-xl lg:rounded-[10px] bg-white shadow-[0px_7px_24px_0px_rgba(0,0,0,0.25)]" key={index}>
