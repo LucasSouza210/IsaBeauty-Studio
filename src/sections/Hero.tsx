@@ -43,7 +43,7 @@ export default function Hero() {
                         {
                             data.map((i, index) => (
                                 <div className="w-full h-46 sm:h-54 md:h-66 lg:h-38 xl:h-46 2xl:h-58 flex items-end justify-center rounded-[10px] sm:rounded-[11px] md:rounded-xl lg:rounded-[10px] bg-white shadow-[0px_7px_24px_0px_rgba(0,0,0,0.25)]" key={index}>
-                                    <div className="flex flex-col gap-2 sm:gap-2.5 md:gap-3 lg:gap-0 mb-10 sm:mb-12 md:mb-14 lg:mb-10">
+                                    <div className="flex flex-col gap-2 sm:gap-2.5 md:gap-3 lg:gap-1 xl:gap-1.5 2xl:gap-2.5 mb-10 sm:mb-12 md:mb-14 lg:mb-10 xl:mb-12 2xl:mb-14">
                                         <p className="interFont font-bold text-[34px] sm:text-[42px] md:text-[50px] lg:text-2xl xl:text-3xl 2xl:text-[38px] leading-none tracking-wide text-[#6A4830]">{i.total}</p>
                                         <p className="interFont font-bold text-sm sm:text-base md:text-lg lg:text-[10px] xl:text-xs 2xl:text-sm leading-none tracking-wide md:tracking-wider text-[#918F8F]">{i.title}</p>
                                     </div>
