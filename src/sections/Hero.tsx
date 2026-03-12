@@ -31,7 +31,7 @@ export default function Hero() {
             <div className="w-full lg:w-174 xl:w-218 2xl:w-280 min-h-full flex flex-col lg:justify-center lg:items-start gap-8 lg:gap-0 2xl:gap-9 relative">
                 <div className="w-full lg:w-auto flex flex-col items-center lg:items-start gap-6 lg:gap-6 xl:gap-7.5 2xl:gap-9 lg:absolute lg:top-34 xl:top-36 2xl:top-42">
                     <img src={logo} alt="" className="h-10 lg:h-12 xl:h-16 2xl:h-18 w-auto xl:mb-1 2xl:mb-2" />
-                    <img src={isaMobile} alt="" className="block lg:hidden w-7/10 object-cover mt-8 [mask-image:linear-gradient(to_bottom,black_75%,transparent_100%)]"/>
+                    <img src={isaMobile} alt="" className="block lg:hidden w-7/10 object-cover mt-8 [mask-image:linear-gradient(to_bottom,black_90%,transparent_99%,transparent_100%)]"/>
                     <p className="dmFont font-semibold text-center lg:text-start text-[20px] lg:text-[35px] xl:text-[44px] 2xl:text-[52px] leading-7 lg:leading-9 xl:leading-12 2xl:leading-15 lg:tracking-tight xl:tracking-normal text-[#6A4830]">Awaken the best version <br className="hidden lg:block"/> of you, take care of your <br className="hidden lg:block"/> skin, take care of yourself.</p>
                     <p className="whitespace-nowrap poppinsFont font-semibold text-center lg:text-start text-xs lg:text-[10px] xl:text-sm 2xl:text-base tracking-wide xl:tracking-normal">With my experience, I’m confident I can help you<br className="lg:hidden"/> achieve the skin <br className="hidden lg:block"/> of your dreams. I can’t wait<br className="lg:hidden"/> to welcome you to my treatment room!</p>
                     <BookMyTreatment bg="bg-[#6A4830]" content="text-[#FFFFFF] px-0"/>
