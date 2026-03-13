@@ -4,7 +4,7 @@ import BookMyTreatment from "../components/BookMyTreatment"
 
 export default function About() {
     return (
-        <div className="w-full h-auto lg:h-[94vh] flex justify-center items-center z-10 py-16 sm:py-17 md:py-18 lg:py-0 px-10 md:px-16 lg:px-0 relative bg-white">
+        <div className="w-full h-auto lg:h-[94vh] flex justify-center items-center z-10 py-16 sm:py-17 md:py-18 lg:py-0 px-10 md:px-16 lg:px-0 relative bg-white" id="about">
             <div className="w-full sm:w-7/10 lg:w-176 xl:w-218 2xl:w-280 h-auto flex flex-col items-center gap-20 sm:gap-22 md:gap-24 lg:absolute lg:-bottom-16 xl:-bottom-20 2xl:-bottom-28 z-10">
                 <div className="flex flex-col items-center gap-2.5 sm:gap-3 md:gap-3.5 lg:gap-2.5 xl:gap-3.5 2xl:gap-4 lg:mb-12 xl:mb-14 2xl:mb-24">
                     <p className="interFont font-bold text-[9px] sm:text-[11px] md:text-xs lg:text-[12px] xl:text-[15px] 2xl:text-xl tracking-[0.35em] md:tracking-[0.4em] lg:tracking-[0.45em] leading-none text-[#918F8F]">PERSONAL STATEMENT</p>

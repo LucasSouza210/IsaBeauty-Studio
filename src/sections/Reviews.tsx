@@ -27,7 +27,7 @@ export default function Reviews() {
     }
 
     return (
-        <div className="w-full lg:pt-18 xl:pt-22 2xl:pt-26 lg:pb-10 xl:pb-12 2xl:pb-18 px-10 md:px-16 lg:px-0 py-14 sm:px-16 md:py-18 lg:py-0 flex justify-center bg-[#EFE6DF]">
+        <div className="w-full lg:pt-18 xl:pt-22 2xl:pt-26 lg:pb-10 xl:pb-12 2xl:pb-18 px-10 md:px-16 lg:px-0 py-14 sm:px-16 md:py-18 lg:py-0 flex justify-center bg-[#EFE6DF]" id="reviews">
             <div className="w-full sm:w-7/10 lg:w-176 xl:w-218 2xl:w-280 h-full flex flex-col justify-center gap-10 sm:gap-11 md:gap-12 lg:gap-10 xl:gap-12">
                 <div className="flex items-center gap-4 sm:gap-5 md:gap-6 lg:gap-5 xl:gap-7.5 2xl:gap-9">
                     <p className="poppinsFont font-semibold text-lg sm:text-xl md:text-[22px] lg:text-[19px] xl:text-[23px] 2xl:text-[26px] leading-none text-[#6A4830]">Customer reviews</p>
