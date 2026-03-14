@@ -13,7 +13,7 @@ function App() {
         <Menu open={overlay} setMenu={setOverlay}/>
       </div>
       <div className="relative flex-1">
-        <div className="scroll-container absolute overflow-y-auto overflow-x-hidden inset-0">
+        <div className="scroll-container absolute overflow-y-auto overflow-x-hidden inset-0 scroll-smooth">
           <div className="size-full relative">
             <Header setMenu={setOverlay} />
             <Home />
