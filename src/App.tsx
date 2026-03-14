@@ -17,10 +17,13 @@ function AppWrapper() {
 function App() {
 
   const context = useContext(Contexts)
-  const { overlay, setOverlay } = context!
+  const { overlay, setOverlay, langOpen, setLangOpen} = context!
 
   return (
-    <div className="size-full relative flex" onClick={() => overlay && setOverlay(false)}>
+    <div className="size-full relative flex" onClick={() => {
+      overlay && setOverlay(false)
+      langOpen && setLangOpen(false)
+    }}>
       <div className={`inset-0 z-10 fixed justify-end transition-all duration-300 bg-zinc-950/15 ${overlay ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`}>
         <Menu />
       </div>

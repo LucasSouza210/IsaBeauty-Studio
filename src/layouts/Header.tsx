@@ -2,11 +2,12 @@ import { IoMenu } from "react-icons/io5";
 import logo from '../assets/images/heroLogo.png'
 import { useContext } from "react";
 import { Contexts } from "../ContextsProvider";
+import LanguageButton from "../components/LanguageButton";
 
 export default function Header() {
 
-      const context = useContext(Contexts)
-      const { overlay, setOverlay } = context!
+    const context = useContext(Contexts)
+    const { overlay, setOverlay } = context!
 
     const links = [
         {
@@ -33,14 +34,17 @@ export default function Header() {
             <button className="size-5 sm:size-5.5 md:size-6 block lg:hidden" onClick={() => setOverlay(true)}>
                 <IoMenu className="size-full text-zinc-700" />
             </button>
-            <div className="hidden lg:flex items-center lg:gap-5 xl:gap-7.5 2xl:gap-8">
-                { 
-                    links.map((i, index) => (
-                        <a href={i.src} key={index} className="scroll-smooth interFont font-medium lg:text-xs xl:text-sm 2xl:text-base leading-none tracking-widest xl:tracking-[0.15em] transition-all duration-200 cursor-pointer text-zinc-800 hover:text-zinc-900">
-                            {i.title}
-                        </a>
-                    ))
-                }
+            <div className="hidden lg:flex items-center lg:gap-9 xl:gap-10.5 2xl:gap-12">
+                <div className="flex items-center lg:gap-6 xl:gap-7 2xl:gap-8">
+                    {
+                        links.map((i, index) => (
+                            <a href={i.src} key={index} className="scroll-smooth interFont font-medium lg:text-xs xl:text-sm 2xl:text-base leading-none tracking-widest xl:tracking-[0.15em] transition-all duration-200 cursor-pointer text-zinc-800 hover:text-zinc-900">
+                                {i.title}
+                            </a>
+                        ))
+                    }
+                </div>
+                <LanguageButton />
             </div>
         </header>
     )

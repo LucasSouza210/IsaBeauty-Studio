@@ -11,6 +11,8 @@ type AppContexts = {
     setOverlay: React.Dispatch<React.SetStateAction<boolean | undefined>>
     selectedLang: Language
     setSelectedLang: React.Dispatch<React.SetStateAction<Language>>
+    langOpen: boolean | undefined
+    setLangOpen: React.Dispatch<React.SetStateAction<boolean | undefined>>
 }
 
 type ProviderProps = {
@@ -54,6 +56,8 @@ export default function ContextsProvider({ children }: ProviderProps) {
         }
     })
 
+    const [langOpen, setLangOpen] = useState<boolean | undefined>(false)
+
     useEffect(() => {
         if (typeof window !== "undefined") {
             localStorage.setItem('selectedLang', JSON.stringify(selectedLang));
@@ -61,7 +65,7 @@ export default function ContextsProvider({ children }: ProviderProps) {
     }, [selectedLang])
 
     return (
-        <Contexts.Provider value={{ languages, overlay, setOverlay, selectedLang, setSelectedLang }}>
+        <Contexts.Provider value={{ languages, overlay, setOverlay, selectedLang, setSelectedLang, langOpen, setLangOpen }}>
             {children}
         </Contexts.Provider>
     )
