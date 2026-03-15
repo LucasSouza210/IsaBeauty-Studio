@@ -19,7 +19,10 @@ export default function LanguageButton() {
                 }
             </button>
             <div className={`${langOpen ? 'flex' : 'hidden'} w-full flex-col gap-3 sm:gap-3.5 md:gap-4 lg:gap-3 xl:gap-3.5 2xl:gap-4 rounded-lg sm:rounded-[10px] md:rounded-xl lg:rounded-lg xl:rounded-[10px] 2xl:rounded-xl p-2 sm:p-2.25 md:p-2.5 lg:p-2 xl:p-2.25 2xl:p-2.5 absolute z-10 top-8 sm:top-9.5 md:top-11 lg:top-8 xl:top-9.5 2xl:top-11 bg-white`}>
-                <button onClick={() => setLangOpen(false)} className="rounded-full overflow-hidden border border-zinc-400">
+                <button onClick={() => {
+                    setLangOpen(false)
+                    setOverlay(false)
+                    }} className="rounded-full overflow-hidden border border-zinc-400">
                     <img src={selectedLang.flag} alt="" className="w-full aspect-square object-cover" />
                 </button>
                 {
@@ -27,6 +30,7 @@ export default function LanguageButton() {
                         <button key={index} className="cursor-pointer rounded-full overflow-hidden transition-all duration-200 border border-transparent hover:border-zinc-300" onClick={() => {
                             setSelectedLang(i)
                             setLangOpen(false)
+                            setOverlay(false)
                         }}>
                             <img src={i.flag} alt="" className="w-full aspect-square object-cover" />
                         </button>
