@@ -3,27 +3,30 @@ import logo from '../assets/images/heroLogo.png'
 import { useContext } from "react";
 import { Contexts } from "../ContextsProvider";
 import LanguageButton from "../components/LanguageButton";
+import { useTranslate } from "../Translations";
 
 export default function Header() {
 
     const context = useContext(Contexts)
-    const { overlay, setOverlay } = context!
+    const { setOverlay } = context!
+
+    const translate = useTranslate()
 
     const links = [
         {
-            title: 'About',
+            title: translate('firstLink').line(),
             src: '#about'
         },
         {
-            title: 'Process',
+            title: translate('secondLink').line(),
             src: '#process'
         },
         {
-            title: 'Reviews',
+            title: translate('thirdLink').line(),
             src: '#reviews'
         },
         {
-            title: 'Treatments',
+            title: translate('fourthLink').line(),
             src: '#treatments'
         }
     ]

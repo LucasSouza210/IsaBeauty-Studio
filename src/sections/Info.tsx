@@ -1,22 +1,25 @@
 import info from "../assets/images/info.png"
+import { useTranslate } from "../Translations"
 
 export default function Info() {
+
+    const translate = useTranslate()
 
     const cards = [
         {
             step: 1,
-            title: "Personal Assessment",
-            description: "I analyze your skin and body to identify exactly what needs to be treated."
+            title: translate('firstCardTitle').line(),
+            description: translate('firstCardContent').line()
         },
         {
             step: 2,
-            title: "Targeted Treatments",
-            description: "I apply advanced facial and body procedures using professional-grade technology and products."
+            title: translate('secondCardTitle').line(),
+            description: translate('secondCardContent').line()
         },
         {
             step: 3,
-            title: "Real Results",
-            description: "You see and feel the difference healthier skin, improved texture, and a more sculpted, confident body."
+            title: translate('thirdCardTitle').line(),
+            description: translate('thirdCardContent').line()
         }
     ]
 
@@ -26,10 +29,10 @@ export default function Info() {
                 <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-4 sm:gap-5 md:gap-6 lg:gap-0">
                     <div className="flex flex-col gap-4 sm:gap-5 md:gap-6 lg:gap-2.5 xl:gap-5 2xl:gap-8">
                         <div className="flex flex-col gap-2 sm:gap-3.5 md:gap-4.5 lg:gap-0 xl:gap-1 2xl:gap-2.5">
-                            <p className="dmFont font-semibold text-sm sm:text-base md:text-lg lg:text-[17px] xl:text-[21px] 2xl:text-[26px] leading-6 sm:leading-6.5 md:leading-7.5 lg:leading-6 xl:leading-7 2xl:leading-9.5 text-black">YOU DON’T HAVE TO LIVE WITH <br /> SKIN OR BODY INSECURITIES.</p>
-                            <p className="dmFont font-semibold text-3xl sm:text-4xl md:text-[42px] lg:text-[32px] xl:text-[38px] 2xl:text-[46px] leading-10 sm:leading-11 md:leading-12 tracking-wide sm:tracking-wider lg:tracking-wide 2xl:tracking-wider text-[#6A4830]">I can help you<br className="lg:hidden"/> change that.</p>
+                            <p className="dmFont font-semibold text-sm sm:text-base md:text-lg lg:text-[17px] xl:text-[21px] 2xl:text-[26px] leading-6 sm:leading-6.5 md:leading-7.5 lg:leading-6 xl:leading-7 2xl:leading-9.5 text-black">{translate('infoSubtitle').break()}</p>
+                            <p className="dmFont font-semibold text-3xl sm:text-4xl md:text-[42px] lg:text-[32px] xl:text-[38px] 2xl:text-[46px] leading-10 sm:leading-11 md:leading-12 tracking-wide sm:tracking-wider lg:tracking-wide 2xl:tracking-wider text-[#6A4830]">{translate('infoTitle').break()}</p>
                         </div>
-                        <p className="lg:whitespace-nowrap fontPoppins font-semibold xl:font-bold lg:font-semibold text-[10px] sm:text-xs md:text-sm lg:text-[10px] xl:text-[11px] 2xl:text-sm leading-4 sm:leading-5 md:leading-6 lg:leading-3.5 xl:leading-4.5 2xl:leading-5.5 tracking-wider text-black">If you struggle with acne, pigmentation, dull skin, sagging, localized fat <br className="hidden lg:block"/> or lack of firmness. I create targeted facial and body treatments designed <br className="hidden lg:block"/> to correct, improve and restore your confidence. Your concerns are specific. <br className="hidden lg:block"/> Your treatment should be too.</p>
+                        <p className=" fontPoppins font-semibold xl:font-bold lg:font-semibold text-[10px] sm:text-xs md:text-sm lg:text-[10px] xl:text-[11px] 2xl:text-sm leading-4 sm:leading-5 md:leading-6 lg:leading-3.5 xl:leading-4.5 2xl:leading-5.5 tracking-wider text-black">{translate('infoContent').line()}</p>
                     </div>
                     <img src={info} alt="" className="w-full lg:w-auto lg:size-76 xl:size-98 2xl:size-132" />
                 </div>

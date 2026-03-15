@@ -1,22 +1,25 @@
 import { TiStarOutline } from "react-icons/ti";
+import { useTranslate } from "../Translations";
 
 export default function Reviews() {
+
+    const translate = useTranslate()
 
     const reviews = [
         {
             rating: 5,
             name: "Ana Ichim",
-            review: `Superb visit at Isa Beauty! At 50 years old, the owner has a glowing youthfulness. Excellent facial treatment, I will definitely return!`
+            review: translate('firstReview').line()
         },
         {
             rating: 5,
             name: "Tatiana",
-            review: "I was warmly welcomed. She explained which treatments she was doing for me and showed me the products. I left feeling very well taken care of. I will definitely come back."
+            review: translate('secondReview').line()
         },
         {
             rating: 5,
             name: "Amrita",
-            review: "It was a great experience!"
+            review: translate('thirdReview').line()
         }
     ];
 
@@ -30,7 +33,7 @@ export default function Reviews() {
         <div className="w-full lg:pt-18 xl:pt-22 2xl:pt-26 lg:pb-10 xl:pb-12 2xl:pb-18 px-10 md:px-16 lg:px-0 py-14 sm:px-16 md:py-18 lg:py-0 flex justify-center bg-[#EFE6DF]" id="reviews">
             <div className="w-full sm:w-7/10 lg:w-176 xl:w-218 2xl:w-280 h-full flex flex-col justify-center gap-10 sm:gap-11 md:gap-12 lg:gap-10 xl:gap-12">
                 <div className="flex items-center gap-4 sm:gap-5 md:gap-6 lg:gap-5 xl:gap-7.5 2xl:gap-9">
-                    <p className="poppinsFont font-semibold text-lg sm:text-xl md:text-[22px] lg:text-[19px] xl:text-[23px] 2xl:text-[26px] leading-none text-[#6A4830]">Customer reviews</p>
+                    <p className="poppinsFont font-semibold text-lg sm:text-xl md:text-[22px] lg:text-[19px] xl:text-[23px] 2xl:text-[26px] leading-none text-[#6A4830]">{translate('reviewsTitle').line()}</p>
                     <div className="flex items-center gap-0.5 md:gap-1 lg:gap-0.5">
                         {
                             getStars('size-3 sm:size-3.5 md:size-4 lg:size-3 xl:size-3.5 2xl:size-4', 'text-[#6A4830]')

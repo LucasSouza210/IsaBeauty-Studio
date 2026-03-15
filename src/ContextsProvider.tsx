@@ -5,6 +5,20 @@ import beFlag from '../src/assets/flags/BE.png'
 import ukFlag from '../src/assets/flags/GB.png'
 import frFlag from '../src/assets/flags/RE.png'
 
+type ProviderProps = {
+    children: ReactNode
+}
+
+type Language = {
+    title: string
+    flag: string
+}
+
+type Link = {
+    title: string
+    src: string
+}
+
 type AppContexts = {
     languages: Language[]
     overlay: boolean | undefined
@@ -13,15 +27,6 @@ type AppContexts = {
     setSelectedLang: React.Dispatch<React.SetStateAction<Language>>
     langOpen: boolean | undefined
     setLangOpen: React.Dispatch<React.SetStateAction<boolean | undefined>>
-}
-
-type ProviderProps = {
-    children: ReactNode
-}
-
-type Language = {
-    title: string
-    flag: string
 }
 
 export const Contexts = createContext<AppContexts | null>(null)
@@ -46,7 +51,6 @@ export default function ContextsProvider({ children }: ProviderProps) {
             flag: brFlag
         },
     ]
-
     const [overlay, setOverlay] = useState<boolean | undefined>(false)
 
     const [selectedLang, setSelectedLang] = useState<Language>(() => {

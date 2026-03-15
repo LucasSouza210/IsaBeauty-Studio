@@ -4,6 +4,32 @@ import { Contexts } from "./ContextsProvider"
 type Lang = 'nl' | 'en' | 'fr' | 'pt'
 
 const Translations = {
+    header: {
+        firstLink: {
+            nl: `Over mij`,
+            en: `About`,
+            fr: `À propos`,
+            pt: `Sobre`
+        },
+        secondLink: {
+            nl: `Werkwijze`,
+            en: `Process`,
+            fr: `Processus`,
+            pt: `Processo`
+        },
+        thirdLink: {
+            nl: `Reviews`,
+            en: `Reviews`,
+            fr: `Avis`,
+            pt: `Avaliações`
+        },
+        fourthLink: {
+            nl: `Behandelingen`,
+            en: `Treatments`,
+            fr: `Soins`,
+            pt: `Tratamentos`
+        }
+    },
     hero: {
         heroMain: {
             nl: `Ontwaak de beste versie\\d van\\m jezelf, zorg goed voor je\\d huid,\\m zorg goed voor jezelf.`,
@@ -70,22 +96,58 @@ const Translations = {
     },
     info: {
         infoSubtitle: {
-            nl: `JE HOEFT NIET TE LEVEN MET ONZEKERHEID OVER JE HUID OF LICHAAM.`,
-            en: `YOU DON’T HAVE TO LIVE WITH SKIN OR BODY INSECURITIES.`,
-            fr: `VOUS N’AVEZ PAS À VIVRE AVEC DES INSÉCURITÉS CONCERNANT VOTRE PEAU OU VOTRE CORPS.`,
-            pt: `VOCÊ NÃO PRECISA VIVER COM INSEGURANÇAS SOBRE SUA PELE OU SEU CORPO.`
+            nl: `JE HOEFT NIET TE LEVEN MET\\n ONZEKERHEID OVER JE HUID OF LICHAAM.`,
+            en: `YOU DON’T HAVE TO LIVE WITH\\n SKIN OR BODY INSECURITIES.`,
+            fr: `VOUS N’AVEZ PAS À VIVRE AVEC\\n DES INSÉCURITÉS CONCERNANT VOTRE PEAU OU VOTRE CORPS.`,
+            pt: `VOCÊ NÃO PRECISA VIVER INSATISFEITO\\n COM SUA PELE OU CORPO.`
         },
         infoTitle: {
-            nl: `Ik kan je helpen dat te veranderen.`,
-            en: `I can help you change that.`,
-            fr: `Je peux vous aider à changer cela.`,
-            pt: `Eu posso ajudar você a mudar isso.`
+            nl: `Ik kan je helpen\\m dat te veranderen.`,
+            en: `I can help you\\m change that.`,
+            fr: `Je peux vous aider\\m à changer cela.`,
+            pt: `Posso te ajudar\\m a mudar isso.`
         },
         infoContent: {
             nl: `Als je last hebt van acne, pigmentatie, een doffe huid, verslapping, plaatselijk vet of gebrek aan stevigheid. Ik creëer gerichte gezichts- en lichaamsbehandelingen die zijn ontworpen om te corrigeren, verbeteren en je zelfvertrouwen te herstellen. Jouw zorgen zijn specifiek. Jouw behandeling zou dat ook moeten zijn.`,
             en: `If you struggle with acne, pigmentation, dull skin, sagging, localized fat or lack of firmness. I create targeted facial and body treatments designed to correct, improve and restore your confidence. Your concerns are specific. Your treatment should be too.`,
             fr: `Si vous souffrez d’acné, de pigmentation, de peau terne, de relâchement, de graisse localisée ou d’un manque de fermeté. Je crée des traitements ciblés pour le visage et le corps conçus pour corriger, améliorer et restaurer votre confiance. Vos préoccupations sont spécifiques. Votre traitement devrait l’être aussi.`,
             pt: `Se você sofre com acne, pigmentação, pele opaca, flacidez, gordura localizada ou falta de firmeza. Eu crio tratamentos faciais e corporais direcionados para corrigir, melhorar e restaurar sua confiança. Suas preocupações são específicas. Seu tratamento também deve ser.`
+        },
+        firstCardTitle: {
+            nl: `Persoonlijke Analyse`,
+            en: `Personal Assessment`,
+            fr: `Bilan Personnel`,
+            pt: `Análise Pessoal`
+        },
+        secondCardTitle: {
+            nl: `Gerichte Zorg`,
+            en: `Targeted Treatments`,
+            fr: `Soins Ciblés`,
+            pt: `Tratamentos Focados`
+        },
+        thirdCardTitle: {
+            nl: `Echte Resultaten`,
+            en: `Real Results`,
+            fr: `Résultats Réels`,
+            pt: `Resultados Reais`
+        },
+        firstCardContent: {
+            nl: `Ik analyseer uw huid en lichaam om precies te bepalen wat er behandeld moet worden.`,
+            en: `I analyze your skin and body to identify exactly what needs to be treated.`,
+            fr: `J'analyse votre peau et votre corps pour identifier exactement ce qui doit être traité.`,
+            pt: `Eu analiso sua pele e corpo para identificar o que precisa ser tratado.`
+        },
+        secondCardContent: {
+            nl: `Ik pas geavanceerde gezichts- en lichaamsbehandelingen toe met professionele technologie.`,
+            en: `I apply advanced facial and body procedures using professional-grade technology and products.`,
+            fr: `J'applique des soins visage et corps avancés avec une technologie de qualité professionnelle.`,
+            pt: `Eu aplico procedimentos faciais e corporais avançados com tecnologia de nível profissional.`
+        },
+        thirdCardContent: {
+            nl: `U ziet het verschil: een gezondere huid, betere textuur en een zelfverzekerd lichaam.`,
+            en: `You see and feel the difference: healthier skin, improved texture, and a more sculpted, confident body.`,
+            fr: `Vous voyez la différence : une peau saine, une texture améliorée et un corps sculpté.`,
+            pt: `Você vê a diferença: uma pele saudável, textura melhorada e um corpo mais esculpido.`
         }
     },
     interval: {
@@ -134,6 +196,24 @@ const Translations = {
             en: `Customer reviews`,
             fr: `Avis des clients`,
             pt: `Avaliações dos clientes`
+        },
+        firstReview: {
+            nl: `Geweldig bezoek bij Isa Beauty! De eigenaresse straalt een jeugdige gloed uit. Uitstekende gezichtsbehandeling, ik kom zeker terug!`,
+            en: `Superb visit at Isa Beauty! At 50 years old, the owner has a glowing youthfulness. Excellent facial treatment, I will definitely return!`,
+            fr: `Superbe visite chez Isa Beauty ! La propriétaire rayonne de jeunesse. Excellent soin du visage, je reviendrai certainement !`,
+            pt: `Visita incrível na Isa Beauty! A proprietária irradia uma jovialidade brilhante. Excelente tratamento facial, voltarei com certeza!`
+        },
+        secondReview: {
+            nl: `Warm welkom gekregen. Ze legde uit welke behandelingen ze deed en liet de producten zien. Ik voelde me zeer goed verzorgd.`,
+            en: `I was warmly welcomed. She explained which treatments she was doing for me and showed me the products. I left feeling very well taken care of. I will definitely come back.`,
+            fr: `J'ai été chaleureusement accueillie. Elle m'a expliqué les soins et présenté les produits. Je suis repartie ravie et bien chouchoutée.`,
+            pt: `Fui muito bem recebida. Ela explicou cada tratamento e mostrou os produtos utilizados. Saí sentindo-me muito bem cuidada e voltarei.`
+        },
+        thirdReview: {
+            nl: `Het was een geweldige ervaring!`,
+            en: `It was a great experience!`,
+            fr: `C'était une excellente expérience !`,
+            pt: `Foi uma experiência fantástica!`
         }
     },
     treatments: {
@@ -142,6 +222,84 @@ const Translations = {
             en: `Treatments`,
             fr: `Traitements`,
             pt: `Tratamentos`
+        },
+        firstTreatmentTitle: {
+            nl: `Gewichtsverlies en Body Contouring (Iximia HR777)`,
+            en: `Weight Loss and Body Contouring (Iximia HR777)`,
+            fr: `Perte de Poids et Remodelage Corporel (Iximia HR777)`,
+            pt: `Emagrecimento e Contorno Corporal (Iximia HR777)`
+        },
+        secondTreatmentTitle: {
+            nl: `Cellulite en Huidverstrakking (Radiofrequentie + Lipolaser)`,
+            en: `Cellulite and Skin Tightening Treatments (Radiofrequency + Lipolaser)`,
+            fr: `Traitements Cellulite et Raffermissement (Radiofréquence + Lipolaser)`,
+            pt: `Tratamentos de Celulite e Firmeza (Radiofrequência + Lipolaser)`
+        },
+        thirdTreatmentTitle: {
+            nl: `Lymfedrainage / Lichaamsdetox`,
+            en: `Lymphatic Drainage / Body Detox`,
+            fr: `Drainage Lymphatique / Détox Corporelle`,
+            pt: `Drenagem Linfática / Detox Corporal`
+        },
+        fourthTreatmentTitle: {
+            nl: `Laserontharing`,
+            en: `Laser Hair Removal`,
+            fr: `Épilation au Laser`,
+            pt: `Depilação a Laser`
+        },
+        fifthTreatmentTitle: {
+            nl: `Geavanceerde Gezichtsbehandelingen (Reiniging + Peeling)`,
+            en: `Advanced Facial Treatments (Deep Cleansing + Peels)`,
+            fr: `Soins Visage Avancés (Nettoyage Profond + Peeling)`,
+            pt: `Tratamentos Faciais Avançados (Limpeza + Peeling)`
+        },
+        sixthTreatmentTitle: {
+            nl: `Anti-Aging / Huidverjonging (HIFU)`,
+            en: `Anti-Aging / Facial Rejuvenation Treatments (HIFU)`,
+            fr: `Anti-Âge / Rajeunissement Facial (HIFU)`,
+            pt: `Anti-Aging / Rejuvenescimento Facial (HIFU)`
+        },
+        firstTreatmentDesc: {
+            nl: `Een niet-invasieve body contouring behandeling ontworpen om plaatselijk vet te verminderen, de lichaamsvorm te verbeteren en definitie te versterken. De Iximia HR777 technologie stimuleert vetvermindering en helpt bij het verstevigen en contouren van specifieke zones voor zichtbare resultaten.`,
+            en: `A non-invasive body contouring treatment designed to reduce localized fat, improve body shape, and enhance definition. The Iximia HR777 technology stimulates fat reduction while helping to firm and sculpt targeted areas for visible, measurable results.`,
+            fr: `Un traitement de remodelage corporel non invasif conçu pour réduire la graisse localisée, améliorer la silhouette et renforcer la définition. La technologie Iximia HR777 stimule la réduction des graisses tout en aidant à raffermir et sculpter les zones ciblées pour des résultats visibles.`,
+            pt: `Um tratamento de contorno corporal não invasivo projetado para reduzir a gordura localizada, melhorar a forma do corpo e realçar a definição. A tecnologia Iximia HR777 estimula a redução de gordura, ajudando a firmar e esculpir áreas específicas para resultados visíveis e mensuráveis.`
+        },
+        secondTreatmentDesc: {
+            nl: `Geavanceerde combinatietherapie die cellulite aanpakt, de huidtextuur verbetert en de stevigheid verhoogt. Radiofrequentie stimuleert de collageenproductie, terwijl lipolaser helpt bij het verminderen van vetophopingen, waardoor de huid gladder en strakker wordt.`,
+            en: `Advanced combination therapy that targets cellulite, improves skin texture, and boosts firmness. Radiofrequency stimulates collagen production while lipolaser helps reduce fat deposits, leaving the skin smoother and tighter.`,
+            fr: `Thérapie combinée avancée qui cible la cellulite, améliore la texture de la peau et renforce la fermeté. La radiofréquence stimule la production de collagène tandis que le lipolaser aide à réduire les dépôts graisseux, laissant la peau plus lisse et plus ferme.`,
+            pt: `Terapia combinada avançada que combate a celulite, melhora a textura da pele e aumenta a firmeza. A radiofrequência estimula a produção de colágeno, enquanto o lipolaser ajuda a reduzir os depósitos de gordura, deixando a pele mais lisa e firme.`
+        },
+        thirdTreatmentDesc: {
+            nl: `Een gespecialiseerde techniek die het lymfestelsel stimuleert en het vasthouden van vocht, zwellingen en gifstoffen vermindert. Ideaal voor het verbeteren van de circulatie, het versterken van de lichaamscontouren en het bevorderen van een lichtere, meer gedefinieerde uitstraling.`,
+            en: `A specialized technique that stimulates the lymphatic system, reducing water retention, swelling, and toxins. Ideal for improving circulation, enhancing body contour, and promoting a lighter, more defined appearance.`,
+            fr: `Une technique spécialisée qui stimule le système lymphatique, réduisant la rétention d'eau, les gonflements et les toxines. Idéal pour améliorer la circulation, renforcer le contour du corps et favoriser une apparence plus légère et plus définie.`,
+            pt: `Uma técnica especializada que estimula o sistema linfático, reduzindo a retenção de líquidos, inchaços e toxinas. Ideal para melhorar a circulação, realçar o contorno corporal e promover uma aparência mais leve e definida.`
+        },
+        fourthTreatmentDesc: {
+            nl: `Veilige en effectieve ontharing op lange termijn met behulp van geavanceerde lasertechnologie. Richt zich nauwkeurig op de haarzakjes, vermindert hergroei en houdt de omringende huid beschermd en glad.`,
+            en: `Safe and effective long-term hair reduction using advanced laser technology. Targets hair follicles precisely, reducing regrowth while keeping the surrounding skin protected and smooth.`,
+            fr: `Réduction durable des poils, sûre et efficace, utilisant une technologie laser avancée. Cible précisément les follicules pileux, réduisant a repousse tout en protégeant la peau environnante pour un résultat lisse.`,
+            pt: `Redução de pelos segura e eficaz a longo prazo, utilizando tecnologia laser avançada. Atinge os folículos capilares com precisão, reduzindo o crescimento e mantendo a pele circundante protegida e suave.`
+        },
+        fifthTreatmentDesc: {
+            nl: `Professionele gezichtsbehandelingen ontworpen om de gezondheid van de huid diep te reinigen, te vernieuwen en te herstellen. Bevat aangepaste reinigingsprotocollen en chemische peelings om textuur, helderheid, acne en pigmentatie te verbeteren.`,
+            en: `Professional facial treatments designed to deeply cleanse, renew, and restore skin health. Includes customized cleansing protocols and chemical peels to improve texture, brightness, acne, and pigmentation.`,
+            fr: `Soins du visage professionnels conçus pour nettoyer en profondeur, renouveler et restaurer la santé de la peau. Comprend des protocoles de nettoyage personnalisés et des peelings chimiques pour améliorer la texture, l'éclat, l'acné et la pigmentation.`,
+            pt: `Tratamentos faciais profissionais projetados para limpar profundamente, renovar e restaurar a saúde da pele. Inclui protocolos de limpeza personalizados e peelings químicos para melhorar a textura, brilho, acne e pigmentação.`
+        },
+        sixthTreatmentDesc: {
+            nl: `Niet-invasieve facelift en verjongingsbehandeling met High-Intensity Focused Ultrasound (HIFU). Stimuleert diepe collageenproductie, verbetert de stevigheid van de huid, vermindert verslapping en fijne lijntjes, en bevordert een natuurlijk liftend effect zonder hersteltijd.`,
+            en: `Non-invasive facial lifting and rejuvenation treatment using High-Intensity Focused Ultrasound (HIFU). Stimulates deep collagen production, improves skin firmness, reduces sagging and fine lines, and promotes a natural lifting and tightening effect with no downtime.`,
+            fr: `Traitement de lifting et de rajeunissement facial non invasif utilisant les ultrasons focalisés de haute intensité (HIFU). Stimule la production profonde de collagène, améliore la fermeté, réduit le relâchement e les ridules, pour un effet liftant naturel sans éviction sociale.`,
+            pt: `Tratamento de lifting e rejuvenescimento facial não invasivo utilizando Ultrassom Focalizado de Alta Intensidade (HIFU). Estimula a produção profunda de colágeno, melhora a firmeza da pele, reduz a flacidez e linhas finas, promovendo um efeito de lifting natural sem tempo de recuperação.`
+        },
+        buttonText: {
+            nl: `AFSPRAAK MAAKEN`,
+            en: `MAKE AN APPOINTMENT`,
+            fr: `PRENDRE RENDEZ-VOUS`,
+            pt: `MARCAR UM HORÁRIO`
         }
     },
     footer: {
@@ -188,8 +346,8 @@ export function useTranslate() {
                 text.split(/(\\n|\\m|\\d)/)
                     .map((part: string, i: number) => {
                         if (part === "\\n") return <br key={i} />
-                        if (part === "\\m") return <br key={i} className="md:hidden" />
-                        if (part === "\\d") return <br key={i} className="hidden md:block" />
+                        if (part === "\\m") return <br key={i} className="lg:hidden" />
+                        if (part === "\\d") return <br key={i} className="hidden lg:block" />
 
                         return <span key={i}>{part}</span>
                     })

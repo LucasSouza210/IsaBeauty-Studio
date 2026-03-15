@@ -3,27 +3,30 @@ import { Contexts } from "../ContextsProvider";
 import { IoClose } from "react-icons/io5";
 import logo from '../assets/images/heroLogo.png'
 import LanguageButton from "../components/LanguageButton";
+import { useTranslate } from "../Translations";
 
 export default function Menu() {
 
     const context = useContext(Contexts)
     const { overlay, setOverlay, langOpen, setLangOpen } = context!
 
+    const translate = useTranslate()
+
     const links = [
         {
-            title: 'About',
+            title: translate('firstLink').line(),
             src: '#about'
         },
         {
-            title: 'How it works',
+            title: translate('secondLink').line(),
             src: '#process'
         },
         {
-            title: 'Reviews',
+            title: translate('thirdLink').line(),
             src: '#reviews'
         },
         {
-            title: 'Treatments',
+            title: translate('fourthLink').line(),
             src: '#treatments'
         }
     ]
