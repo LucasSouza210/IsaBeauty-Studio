@@ -5,7 +5,7 @@ import { IoMdArrowDropdown, IoMdArrowDropup } from "react-icons/io"
 export default function LanguageButton() {
 
     const context = useContext(Contexts)
-    const { overlay, setOverlay, languages, selectedLang, setSelectedLang, langOpen, setLangOpen } = context!
+    const { setOverlay, languages, selectedLang, setSelectedLang, langOpen, setLangOpen } = context!
 
     return (
         <div className="flex flex-col relative" onClick={(e) => e.preventDefault}>

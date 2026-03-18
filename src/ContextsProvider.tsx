@@ -14,11 +14,6 @@ type Language = {
     flag: string
 }
 
-type Link = {
-    title: string
-    src: string
-}
-
 type AppContexts = {
     languages: Language[]
     overlay: boolean | undefined

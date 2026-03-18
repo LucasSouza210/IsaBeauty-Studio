@@ -27,7 +27,7 @@ export default function About() {
                         <div className="flex flex-col items-center lg:items-start gap-4 sm:gap-5 md:gap-6 lg:gap-3.5 xl:gap-3.5 2xl:gap-7">
                             <p className="lg:whitespace-nowrap dmFont font-semibold text-base sm:text-[22px] md:text-[26px] lg:text-base xl:text-[19px] 2xl:text-2xl leading-6 sm:leading-7 md:leading-8.5 lg:leading-4 xl:leading-5 2xl:leading-6.5 lg:tracking-[0.015em] xl:tracking-wider text-[#6B452E]">{translate('aboutCardTitle').break()}</p>
                             <p className="mb-4 lg:mb-0 lg:whitespace-nowrap dmFont font-normal 2xl:font-medium text-xs sm:text-[15px] md:text-lg lg:text-[9px] xl:text-[11px] 2xl:text-sm leading-4.5 sm:leading-5 md:leading-6.5 lg:leading-3.5 xl:leading-4 2xl:leading-5 tracking-wide sm:tracking-wider lg:tracking-[0.085em] xl:tracking-[0.09em] xl:mb-2 2xl:mb-0 lg:text-white">{translate('aboutCardContent').break()}</p>
-                            <BookMyTreatment bg="bg-[#6A4830]" content="text-[#FFFFFF]" style="flex justify-center items-center" />
+                            <BookMyTreatment />
                         </div>
                     </div>
                 </div>

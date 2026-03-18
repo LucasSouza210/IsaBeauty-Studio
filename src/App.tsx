@@ -1,6 +1,5 @@
 import { useContext } from "react"
 import { Contexts } from "./ContextsProvider"
-import { useState } from "react"
 import Home from "./pages/Home"
 import Header from "./layouts/Header"
 import Menu from "./layouts/Menu"

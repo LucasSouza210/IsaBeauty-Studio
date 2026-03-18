@@ -34,10 +34,10 @@ export default function Hero() {
             <div className="w-full sm:w-7/10 lg:w-176 xl:w-218 2xl:w-280 min-h-full flex flex-col lg:justify-center lg:items-start gap-9 sm:gap-10 md:gap-12 lg:gap-0 2xl:gap-9 relative">
                 <div className="w-full lg:w-auto flex flex-col items-center lg:items-start gap-6 sm:gap-6.5 md:gap-8 lg:gap-5.5 xl:gap-7 2xl:gap-9 lg:absolute lg:top-34 xl:top-30 2xl:top-42">
                     <img src={logo} alt="" className="h-10 sm:h-13 md:h-16 lg:h-11 xl:h-15 2xl:h-18 w-auto xl:mb-1 2xl:mb-2" />
-                    <img src={isaMobile} alt="" className="w-7/10 sm:w-3/4 block lg:hidden object-cover mt-8 [mask-image:linear-gradient(to_bottom,black_90%,transparent_99%,transparent_100%)]" />
+                    <img src={isaMobile} alt="" className="w-7/10 sm:w-3/4 block lg:hidden object-cover mt-8 mask-[linear-gradient(to_bottom,black_90%,transparent_99%,transparent_100%)]" />
                     <p className="whitespace-nowrap dmFont font-semibold text-center lg:text-start text-xl sm:text-3xl md:text-[36px] lg:text-[34px] xl:text-[44px] 2xl:text-[55px] leading-7 sm:leading-9 md:leading-11 lg:leading-9 xl:leading-11 2xl:leading-15 sm:tracking-wide md:tracking-wider lg:tracking-normal xl:tracking-normal text-[#6A4830]">{translate('heroMain').break()}</p>
                     <p className="whitespace-nowrap poppinsFont font-semibold text-center lg:text-start text-xs sm:text-sm md:text-[17px] lg:text-[10px] xl:text-sm 2xl:text-[17px] tracking-wide sm:tracking-wider md:tracking-[0.085em] lg:tracking-[0.030em] xl:tracking-normal leading-4.5 sm:leading-5.5 md:leading-6.5 lg:leading-4 xl:leading-6 2xl:leading-6.5">{translate('desc').break()}</p>
-                    <BookMyTreatment bg="bg-[#6A4830]" content="text-[#FFFFFF] px-0" />
+                    <BookMyTreatment />
                 </div>
                 <img src={isa} alt="" className="hidden lg:block lg:h-200 xl:h-224 2xl:h-280 absolute right-0 -bottom-6 lg:-bottom-60 xl:-bottom-64 2xl:-bottom-80" />
                 <div className="w-full flex flex-col gap-5 sm:gap-6 md:gap-7 lg:gap-5 xl:gap-6 2xl:gap-7 relative lg:absolute lg:-bottom-28 xl:-bottom-32 2xl:-bottom-40 lg:z-20">

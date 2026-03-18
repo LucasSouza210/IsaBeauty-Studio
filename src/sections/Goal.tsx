@@ -19,7 +19,7 @@ export default function Goal() {
                         <p className="lg:whitespace-nowrap poppinsFont font-medium lg:font-normal text-xs sm:text-sm md:text-base lg:text-xs xl:text-[15px] 2xl:text-lg leading-4 sm:leading-5 md:leading-6 lg:leading-5 xl:leading-6 2xl:leading-6 tracking-wider 2xl:tracking-[0.055em] text-black">{translate('goalFirstText').break()}</p>
                         <p className="lg:whitespace-nowrap poppinsFont font-medium lg:font-normal text-xs sm:text-sm md:text-base lg:text-xs xl:text-[15px] 2xl:text-lg leading-4 sm:leading-5 md:leading-6 lg:leading-5 xl:leading-6 tracking-wider 2xl:tracking-[0.055em] text-black">{translate('goalSecondText').break()}</p>
                     </div>
-                    <BookMyTreatment bg="bg-[#6A4830]" content="text-[#BF987E]" />
+                    <BookMyTreatment content="text-[#BF987E]" />
                 </div>
             </div>
         </div>
