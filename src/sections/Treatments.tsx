@@ -62,7 +62,7 @@ export default function Treatments() {
                                     </div>
                                 </div>
                                 <p className='w-full lg:flex-1 poppinsFont font-medium text-sm sm:text-base md:text-lg lg:text-[11px] xl:text-[13px] 2xl:text-base tracking-wide sm:tracking-wider leading-5.5 sm:leading-6.5 md:leading-7.75 lg:leading-4 xl:leading-5 2xl:leading-6 text-black'>{i.description}</p>
-                                <a href={'#contact'} className='w-17/20 h-10 sm:h-12 md:h-14 lg:h-8.5 xl:h-10 2xl:h-13 flex items-center justify-center poppinsFont font-semibold text-sm sm:text-base md:text-lg lg:text-[11px] xl:text-[13px] 2xl:text-base tracking-wider rounded-full bg-[#6A4830] text-white'>{translate('buttonText').line()}</a>
+                                <a href={'#contact'} className='w-17/20 h-10 sm:h-12 md:h-14 lg:h-8.5 xl:h-10 2xl:h-13 flex items-center justify-center poppinsFont font-semibold text-sm sm:text-base md:text-lg lg:text-[11px] xl:text-[13px] 2xl:text-base tracking-wider rounded-full transition-all duration-200 cursor-pointer bg-[#6A4830] hover:bg-[#5A3D28] text-white'>{translate('buttonText').line()}</a>
                             </div>
                         ))
                     }
