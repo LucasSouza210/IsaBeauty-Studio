@@ -1,4 +1,5 @@
 import About from "../sections/About";
+import Contact from "../sections/Contact";
 import Footer from "../sections/Footer";
 import Goal from "../sections/Goal";
 import Hero from "../sections/Hero";
@@ -17,6 +18,7 @@ export default function Home() {
             <Goal />
             <Reviews />
             <Treatments />
+            <Contact />
             <Footer />
         </div>
     )

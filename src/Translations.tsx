@@ -28,6 +28,12 @@ const Translations = {
             en: `Treatments`,
             fr: `Soins`,
             pt: `Tratamentos`
+        },
+        fifthLink: {
+            nl: 'Contact',
+            en: 'Contact',
+            fr: 'Contact',
+            pt: 'Contato'
         }
     },
     hero: {
@@ -300,6 +306,20 @@ const Translations = {
             en: `MAKE AN APPOINTMENT`,
             fr: `PRENDRE RENDEZ-VOUS`,
             pt: `MARCAR UM HORÁRIO`
+        }
+    },
+    contact: {
+        contactTitle: {
+            nl: `Maak een afspraak`,
+            en: `Make an Appointment`,
+            fr: `Prendre un rendez-vous`,
+            pt: `Agendar um atendimento`
+        },
+        contactSubtitle: {
+            nl: `Binnen 1 minuut\\d geregeld, boek nu je afspraak.`,
+            en: `Booked in 1 minute,\\d schedule your appointment now.`,
+            fr: `Réservez en 1 minute,\\d prenez votre rendez-vous maintenant.`,
+            pt: `Em 1 minuto você\\d resolve, agende agora mesmo.`
         }
     },
     footer: {

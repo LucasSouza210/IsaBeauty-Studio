@@ -28,6 +28,10 @@ export default function Header() {
         {
             title: translate('fourthLink').line(),
             src: '#treatments'
+        },
+        {
+            title: translate('fifthLink').line(),
+            src: '#contact'
         }
     ]
 
