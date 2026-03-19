@@ -63,13 +63,6 @@ export default function ContextsProvider({ children }: ProviderProps) {
         }
     }, [selectedLang])
 
-    useEffect(() => {
-        if (typeof window !== "undefined") {
-            const html = document.documentElement
-            html.setAttribute('lang', selectedLang.title)
-        }
-    }, [selectedLang])
-
     return (
         <Contexts.Provider value={{ languages, overlay, setOverlay, selectedLang, setSelectedLang, langOpen, setLangOpen }}>
             {children}
