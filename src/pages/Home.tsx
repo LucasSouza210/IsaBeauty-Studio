@@ -1,6 +1,6 @@
 import About from "../sections/About";
 import Contact from "../sections/Contact";
-import Footer from "../sections/Footer";
+import Footer from "../layouts/Footer";
 import Goal from "../sections/Goal";
 import Hero from "../sections/Hero";
 import Info from "../sections/Info";

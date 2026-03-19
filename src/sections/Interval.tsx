@@ -13,7 +13,7 @@ export default function Interval() {
                 <img src={logo} alt="" className="w-34 sm:w-40 md:w-48 lg:w-33 xl:w-39 2xl:w-48 opacity-50 lg:mb-3 xl:mb-4 2xl:mb-6" />
                 <p className="poppinsFont font-normal 2xl:font-normal text-xl sm:text-2xl md:text-[26px] lg:text-[19px] xl:text-[23px] 2xl:text-[26px] tracking-wide sm:tracking-wider 2xl:tracking-wider leading-4 text-white">{translate('intervalTitle').line()}</p>
                 <p className="poppinsFont tracking-normal sm:tracking-wide xl:font-extralight 2xl:font-normal text-xs sm:text-sm md:text-base lg:text-[10px] xl:text-[11px] 2xl:text-sm leading-4.5 sm:leading-5.5 md:leading-6.5 lg:leading-3.5 xl:leading-4 2xl:leading-5.5 lg:tracking-wider xl:tracking-[0.07em] text-center text-white">{translate('intervalContent').break()}</p>
-                <BookMyTreatment bg="bg-[#EFE6DF]" content="text-[#6A4830]" />
+                <BookMyTreatment bg="bg-[#EFE6DF] hover:bg-[#E5DBD3]" content="text-[#6A4830]" />
             </div>
         </div>
     )

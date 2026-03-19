@@ -58,7 +58,7 @@ export default function Reviews() {
                     </div>
                     <div className="w-full flex justify-center gap-2 sm:gap-2.25 md:gap-2.5 lg:gap-2.5 xl:gap-3 2xl:gap-3.5">
                         {
-                            [0, 1, 2].map((i, index) => (
+                            [0, 1, 2].map((_, index) => (
                                 <span className="size-2 sm:size-2.25 md:size-2.5 lg:size-2 xl:size-2.5 2xl:size-3 rounded-full bg-white" key={index} />
                             ))
                         }

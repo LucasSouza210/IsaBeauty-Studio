@@ -15,7 +15,7 @@ export default function Contact() {
         },
         {
             icon: <FaEnvelope className="size-4 sm:size-5 md:size-6 lg:size-3 xl:size-4 2xl:size-5 fill-[#6A4830]"/>,
-            content: 'isabelbeautybr@hotmail.com',
+            content: 'Isabelbeautybr74@gmail.com',
         },
         {
             icon: <FaLocationDot className="size-4 sm:size-5 md:size-6 lg:size-3 xl:size-4 2xl:size-5 fill-[#6A4830]"/>,
