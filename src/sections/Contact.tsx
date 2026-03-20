@@ -29,7 +29,7 @@ export default function Contact() {
                 <div className="flex flex-col items-start gap-10 sm:gap-12 md:gap-14 lg:gap-8 xl:gap-10 2xl:gap-12">
                     <div className="flex flex-col gap-3 sm:gap-3.5 md:gap-4 lg:gap-2 xl:gap-2.5 2xl:gap-3">
                         <p className="dmFont font-semibold text-sm sm:text-base md:text-lg lg:text-sm xl:text-base 2xl:text-lg leading-none tracking-wider text-black">{translate('contactTitle').line()}</p>
-                        <p className="dmFont font-semibold text-2xl sm:text-[26px] md:text-3xl lg:text-2xl xl:text-[26px] 2xl:text-3xl leading-8.5 sm:leading-9.5 md:leading-10 lg:leading-8 xl:leading-9 2xl:leading-10 tracking-wider text-[#6A4830]">{translate('contactSubtitle').break()}</p>
+                        <p className="dmFont font-semibold text-2xl sm:text-[26px] md:text-3xl lg:text-2xl xl:text-[26px] 2xl:text-3xl leading-8.5 sm:leading-9.5 md:leading-10 lg:leading-7 xl:leading-8 2xl:leading-9 tracking-wider text-[#6A4830]">{translate('contactSubtitle').break()}</p>
                     </div>
                     <div className="flex flex-col gap-4.5 sm:gap-6 md:gap-7 lg:gap-4 xl:gap-5 2xl:gap-6">
                         {

@@ -38,21 +38,21 @@ const Translations = {
     },
     hero: {
         heroMain: {
-            nl: `Ontwaak de beste versie\\d van\\m jezelf, zorg goed voor je\\d huid,\\m zorg goed voor jezelf.`,
+            nl: `De beste versie van jezelf\\n begint bij een gezonde\\d huid.`,
             en: `Awaken the best version\\d of\\m you, take care of your\\d skin,\\m take care of yourself.`,
             fr: `Réveillez votre\\m meilleure\\d version, prenez\\m soin de\\d votre peau et de vous.`,
             pt: `Desperte a melhor versão\\n de si mesmo, cuide da sua\\n pele, cuide de si mesmo.`
         },
         desc: {
-            nl: `Met mijn ervaring ben ik ervan overtuigd dat ik u\\m kan helpen de huid\\d van uw dromen te bereiken.\\m Ik kijk ernaar uit u te verwelkomen!`,
-            en: `With my experience, I’m confident I can help you\\m achieve the skin\\d of your dreams. I can’t wait\\m to welcome you to my treatment room!`,
+            nl: `Met mijn ervaring help ik u om de\\m huid van uw dromen\\d te bereiken. Ik kijk\\m ernaar uit u te verwelkomen!`,
+            en: `With my experience, I’m confident I can help you\\m achieve the skin\\d of your dreams. I look forward to\\m welcoming you.`,
             fr: `Forte de mon expérience, je peux vous\\m aider à obtenir la peau de\\d vos rêves. J’ai hâte\\m de vous accueillir dans mon espace de soins!`,
             pt: `Com minha experiência, posso te ajudar a\\m conquistar sua pele\\d dos sonhos. Espero te\\m receber no meu espaço de atendimento!`
         },
         dataTitle: {
-            nl: `Enkele merken die we hebben bereikt`,
-            en: `Some brands we reached`,
-            fr: `Quelques marques que nous avons atteintes`,
+            nl: `Enkele resultaten die we hebben bereikt`,
+            en: `Some results we’ve achieved`,
+            fr: `Quelques résultats que nous avons obtenus`,
             pt: `Algumas marcas que alcançamos`
         },
         firstBlock: {
@@ -82,9 +82,9 @@ const Translations = {
             pt: `DECLARAÇÃO PESSOAL`
         },
         aboutTitle: {
-            nl: `Mijn naam is Isabel en ik ben uw huidspecialist.`,
-            en: `My name is Isabel and I am your Skin Specialist.`,
-            fr: `Je m’appelle Isabel, spécialiste de la peau.`,
+            nl: `Mijn naam is Isabel, uw huidspecialist.`,
+            en: `My name is Isabel, your skin specialist.`,
+            fr: `Je m’appelle Isabel, votre spécialiste de la peau.`,
             pt: `Meu nome é Isabel e sou sua especialista em pele.`
         },
         aboutCardTitle: {
@@ -164,7 +164,7 @@ const Translations = {
             pt: `Agora posso dizer com orgulho`
         },
         intervalContent: {
-            nl: `Ik heb honderden mensen geholpen hun leven te\\n transformeren en ik kan niet wachten om er nog duizenden meer te helpen.`,
+            nl: `Ik heb honderden mensen geholpen hun leven te\\m transformeren\\d en ik kan niet wachten om er nog duizenden\\m meer te helpen.`,
             en: `I have helped hundreds of people transform their\\n lives, and I can’t wait to help thousands more.`,
             fr: `J’ai aidé des centaines de personnes à transformer\\n leur vie et j’ai hâte d’en aider des milliers d’autres.`,
             pt: `Já ajudei centenas de pessoas a transformarem suas\\n vidas e mal posso esperar para ajudar outras milhares.`
@@ -178,15 +178,15 @@ const Translations = {
             pt: `NOSSO OBJETIVO`
         },
         goalTitle: {
-            nl: `Bij onze kliniek voelt iedereen zich\\d  thuis en wordt u als familie behandeld.`,
+            nl: `In onze kliniek voelt u zich meteen\\d thuis en wordt u als familie behandeld.`,
             en: `Is to ensure everyone feels and\\d is treated like family at our clinic.`,
-            fr: `Ici, chaque client est accueilli et\\d soigné comme un membre de la famille.`,
+            fr: `Notre objectif est que vous vous sentiez\\d chez vous et traité comme un membre de\\d la famille.`,
             pt: `É garantir que todos se sintam e sejam\\d tratados como família em nossa clínica.`
         },
         goalFirstText: {
-            nl: `Iemand uit je familie met je huid vertrouwen geeft je een comfortabeler\\d en veiliger gevoel.`,
+            nl: `Iemand die je vertrouwt met je huid geeft een comfortabel en veilig\\d gevoel.`,
             en: `Trusting someone from your family with your skin makes you feel more\\d comfortable and safe.`,
-            fr: `Confier votre peau à quelqu’un de votre famille vous fait vous sentir\\d plus à l’aise et en sécurité.`,
+            fr: `Être pris en charge par une personne de confiance vous fait vous sentir\\d à l’aise et en sécurité.`,
             pt: `Confiar sua pele a alguém da sua família faz você se sentir mais\\d confortável e seguro.`
         },
         goalSecondText: {
@@ -318,7 +318,7 @@ const Translations = {
         contactSubtitle: {
             nl: `Binnen 1 minuut\\d geregeld, boek nu je afspraak.`,
             en: `Booked in 1 minute,\\d schedule your appointment now.`,
-            fr: `Réservez en 1 minute,\\d prenez votre rendez-vous maintenant.`,
+            fr: `Réservez en 1 minute, prenez\\d votre rendez-vous maintenant.`,
             pt: `Em 1 minuto você\\d resolve, agende agora mesmo.`
         }
     },

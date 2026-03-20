@@ -28,9 +28,9 @@ export default function Info() {
             <div className="w-full sm:w-7/10 lg:w-176 xl:w-218 2xl:w-280 h-full flex flex-col justify-center gap-6 xl:gap-4 2xl:gap-6">
                 <div className="flex flex-col lg:flex-row lg:justify-between items-center gap-4 sm:gap-5 md:gap-6 lg:gap-0">
                     <div className="flex flex-col gap-4 sm:gap-5 md:gap-6 lg:gap-2.5 xl:gap-5 2xl:gap-8">
-                        <div className="flex flex-col gap-2 sm:gap-3.5 md:gap-4.5 lg:gap-0 xl:gap-1 2xl:gap-2.5">
+                        <div className="flex flex-col gap-2 sm:gap-3.5 md:gap-4.5 lg:gap-0.5 xl:gap-1 2xl:gap-2.5">
                             <p className="dmFont font-semibold text-sm sm:text-base md:text-lg lg:text-[17px] xl:text-[21px] 2xl:text-[26px] leading-6 sm:leading-6.5 md:leading-7.5 lg:leading-6 xl:leading-7 2xl:leading-9.5 text-black">{translate('infoSubtitle').break()}</p>
-                            <p className="dmFont font-semibold text-3xl sm:text-4xl md:text-[42px] lg:text-[32px] xl:text-[38px] 2xl:text-[46px] leading-10 sm:leading-11 md:leading-12 tracking-wide sm:tracking-wider lg:tracking-wide 2xl:tracking-wider text-[#6A4830]">{translate('infoTitle').break()}</p>
+                            <p className="dmFont font-semibold text-3xl sm:text-4xl md:text-[42px] lg:text-[32px] xl:text-[38px] 2xl:text-[46px] leading-10 sm:leading-11 md:leading-12 lg:leading-9 xl:leading-11 2xl:leading-12 tracking-wide sm:tracking-wider lg:tracking-wide 2xl:tracking-wider text-[#6A4830]">{translate('infoTitle').break()}</p>
                         </div>
                         <p className=" fontPoppins font-semibold xl:font-bold lg:font-semibold text-[10px] sm:text-xs md:text-sm lg:text-[10px] xl:text-[11px] 2xl:text-sm leading-4 sm:leading-5 md:leading-6 lg:leading-3.5 xl:leading-4.5 2xl:leading-5.5 tracking-wider text-black">{translate('infoContent').line()}</p>
                     </div>
